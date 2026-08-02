@@ -6,6 +6,12 @@
     "strType": "item"
   },
   {
+    "strName": "ItmSpaceTruckerShortsHughes_S01_B01_C01",
+    "aCOs": ["ItmSpaceTruckerShortsHughes_S01_B01_C01=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
     "strName": "COND_SpaceTruckerShortsHughes_Apply",
     "aCOs": [
       "StatBodyInsulation=1.0x0.1",
