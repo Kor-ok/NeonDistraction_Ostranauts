@@ -1,0 +1,72 @@
+[
+  {
+    "strName" : "pocket_ShortsHipL",
+    "strNameFriendly" : "Left Hip Pocket",
+    "strHitboxImage" : "blank",
+    "nItems" : 1,
+    "nDepth" : 15,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  },
+  {
+    "strName" : "pocket_ShortsHipR",
+    "strNameFriendly" : "Right Hip Pocket",
+    "strHitboxImage" : "blank",
+    "nItems" : 1,
+    "nDepth" : 15,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  },
+  {
+    "strName" : "pocket_ShortsClip01",
+    "strNameFriendly" : "Clip Point",
+    "strHitboxImage" : "blank",
+    "nItems" : 1,
+    "nDepth" : 15,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  },
+  {
+    "strName" : "pocket_cargoShorts01",
+    "strNameFriendly" : "Cargo Pocket",
+    "strHitboxImage" : "blank",
+    "nItems" : 1,
+    "nDepth" : 15,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  },
+  {
+    "strName" : "pocket_cargoShorts02",
+    "strNameFriendly" : "Cargo Pocket",
+    "strHitboxImage" : "blank",
+    "nItems" : 1,
+    "nDepth" : 15,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  }  
+]
