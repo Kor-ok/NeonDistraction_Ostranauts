@@ -7,9 +7,6 @@
     "strDmgColor" : "DamageTintDefault",
     "fZScale"  : 0.2,
     "nCols"  : 1,
-    // "aLights"        : [
-    //   "Headphones1x1Green"
-    // ],
     "aSocketAdds"    : [
       "TILItemAdds"
     ],

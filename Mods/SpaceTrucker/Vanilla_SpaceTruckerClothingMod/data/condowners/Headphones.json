@@ -11,12 +11,10 @@
     "aInteractions" : [
       "EquipItem",
       "DropItem",
-      "PickupItem",
-      "GUISpaceTruckerHeadphones", // search GUINavStation GUIComputer
-      "ACTSpaceTruckerHeadphones"
+      "PickupItem"
     ],
     "aStartingConds" : [
-      "IsAyotimiwa=1.0x1", // search IsComputer IsPDA IsPairable
+      "IsAyotimiwa=1.0x1",
       "IsRigid=1.0x1.0",
       "IsSolid=1.0x1.0",
       "IsClippable=1.0x1",
@@ -28,7 +26,6 @@
       "StatDismantleProgressMax=1.0x10",
       "StatArmorBlunt=1.0x1.0",
       "StatArmorCut=1.0x1.5"
-      // "IsLightSource=1.0x1" Apply when worn?
     ],
     "mapCondTolerance"       : [
     ],
@@ -42,19 +39,8 @@
       "Destructable,StatDamage,ACTHelmet02Damage,StatDamageMax,1.0"
     ],
     "mapGUIPropMaps"  : [
-    //   "Panel A", "NavStation",
-    //   "NavModConfig","NavModConfig",
-    //   "Panel Right", "DockSys",
-    //   "Panel Computer", "Computer",
-    //   "PDANAV", "PDANAV",
-    //   "PDA NavLink", "PDA NavLink",
-    //   "Computer", "Computer",
-    //   "PDA Home", "PDA Home",
-    //   "Electrical"
-        "Headphones_Key", "Headphones_Value"
     ],
     "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
-    "strAudioEmitter" : "ExperimentHeadphones",
     "mapSlotEffects" : [
       "head_out","BodySpaceTruckerHeadphonesAyotimiwa",
       "heldL","HeldItmDefaultL",
