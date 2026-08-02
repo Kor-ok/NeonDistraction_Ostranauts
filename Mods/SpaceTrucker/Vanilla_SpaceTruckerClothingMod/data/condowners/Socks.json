@@ -1,11 +1,11 @@
 [
     {
-        "strName" : "SpaceTruckerSocksCompression_L", // <-- cooverlays NOTUSING
+        "strName" : "SpaceTruckerSocksCompression_L",
         "strNameShort" : "Compression Sock",
-        "strNameFriendly": "Left Compression Sock (Size Small)",
+        "strNameFriendly": "Left Compression Sock",
         "strType" : "Item",
         "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_L", // <-- items
-        "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.\n\nSize Small",
+        "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.",
         "nStackLimit" : 10,
         "aInteractions" : [
             "EquipItem",
@@ -47,12 +47,12 @@
         ]
     },
     {
-        "strName" : "SpaceTruckerSocksCompression_R", // <-- cooverlays NOTUSING
+        "strName" : "SpaceTruckerSocksCompression_R",
         "strNameShort" : "Compression Sock",
-        "strNameFriendly": "Right Compression Sock (Size Small)",
+        "strNameFriendly": "Right Compression Sock",
         "strType" : "Item",
         "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_R", // <-- items
-        "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.\n\nSize Small",
+        "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.",
         "nStackLimit" : 10,
         "aInteractions" : [
             "EquipItem",
