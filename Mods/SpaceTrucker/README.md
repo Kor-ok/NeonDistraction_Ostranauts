@@ -1,8 +1,8 @@
-# Space Trucker Clothing Mod
+# Space Trucker Clothing Mod v0.9
 **Clothing Assets that mimic the concept art [Space Trucker by Charlie Martin](https://ostranauts.wiki.gg/index.php?curid=4382").**
 ![Space Trucker](readme_assets/640px-Space_Trucker_1440.png)
 
-[Download Mod Folder Zipped](https://download-directory.github.io/?url=https://github.com/Kor-ok/NeonDistraction_Ostranauts/tree/main/Mods/SpaceTrucker)
+[![Download Mod Folder](https://img.shields.io/badge/Download_Mod_Folder-Zipped-blue?style=for-the-badge)](https://download-directory.github.io/?url=https://github.com/Kor-ok/NeonDistraction_Ostranauts/tree/main/Mods/SpaceTrucker)
 
 
 > [!WARNING]
@@ -15,6 +15,8 @@
 ```text
 spawn AllSpaceTruckerItems
 ```
+> [!NOTE]
+> Stats are subject to change
 
 | Ayotimiwa Headphones ||
 |-|-|
