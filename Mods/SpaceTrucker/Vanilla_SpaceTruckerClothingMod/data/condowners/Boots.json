@@ -1,6 +1,6 @@
 [
     {
-    "strName" : "ItmSpaceTruckerBootKompart_L",
+    "strName" : "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
     "strNameShort" : "Boot L",
     "strItemDef" : "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
     "strDesc" : "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
@@ -50,7 +50,7 @@
     "jsonPI"            : null
   },
   {
-    "strName" : "ItmSpaceTruckerBootKompart_R",
+    "strName" : "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
     "strNameShort" : "Boot R",
     "strItemDef" : "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
     "strDesc" : "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",

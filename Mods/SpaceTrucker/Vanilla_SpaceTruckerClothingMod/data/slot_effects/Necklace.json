@@ -1,0 +1,12 @@
+[
+    {
+    "strName" : "BodySpaceTruckerBerwesatNecklace",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerBerwesatNecklace_S01_B00_C01",
+    "strIASlot" : "SLOT_SpaceTruckerBerwesatNecklace",
+    "strIAUnslot" : "UNSLOT_SpaceTruckerBerwesatNecklace",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+    ]
+  }
+]
