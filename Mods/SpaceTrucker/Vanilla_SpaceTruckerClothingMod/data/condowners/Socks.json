@@ -1,6 +1,6 @@
 [
     {
-        "strName" : "SpaceTruckerSocksCompression_L",
+        "strName" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_L",
         "strNameShort" : "Compression Sock",
         "strNameFriendly": "Left Compression Sock",
         "strType" : "Item",
@@ -47,7 +47,7 @@
         ]
     },
     {
-        "strName" : "SpaceTruckerSocksCompression_R",
+        "strName" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_R",
         "strNameShort" : "Compression Sock",
         "strNameFriendly": "Right Compression Sock",
         "strType" : "Item",
