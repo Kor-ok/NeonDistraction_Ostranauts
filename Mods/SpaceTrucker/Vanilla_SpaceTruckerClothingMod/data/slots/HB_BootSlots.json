@@ -1,11 +1,11 @@
 [
   {
     "strName": "bootL_out",
-    "strNameFriendly": "Boot (Left)",
+    "strNameFriendly": "Left Boot",
     "strHitboxImage": "paperdoll/HBbootL",
     "strIconImage": "paperdoll/HBbootLIcon",
     "nItems": 1,
-    "nDepth": 10,
+    "nDepth": 6,
     "fAlignX": 0.0,
     "fAlignY": 0.0,
     "bAlignSlot": false,
@@ -16,11 +16,11 @@
   },
   {
     "strName": "bootR_out",
-    "strNameFriendly": "Boot (Right)",
+    "strNameFriendly": "Right Boot",
     "strHitboxImage": "paperdoll/HBbootR",
     "strIconImage": "paperdoll/HBbootRIcon",
     "nItems": 1,
-    "nDepth": 10,
+    "nDepth": 6,
     "fAlignX": 0.0,
     "fAlignY": 0.0,
     "bAlignSlot": false,
