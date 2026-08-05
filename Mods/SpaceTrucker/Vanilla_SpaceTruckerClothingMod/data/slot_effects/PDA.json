@@ -1,0 +1,35 @@
+[
+{
+    "strName" : "WristSpaceTruckerEinkPDA_S01_B00_C01",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerEinkPDA_S01_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWristPDA01",
+    "strIAUnslotParents" : "UNSLOTWristPDA01",
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "WristSpaceTruckerEinkPDA_S02_B00_C01",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerEinkPDA_S02_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWristPDA01Locked",
+    "strIAUnslotParents" : "UNSLOTWristPDA01Locked",
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "WristSpaceTruckerEinkPDA_S03_B00_C01",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerEinkPDA_S03_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWristPDA01Dmg",
+    "strIAUnslotParents" : "UNSLOTWristPDA01Dmg",
+    "mapMeshTextures" : [
+    ]
+  }
+]

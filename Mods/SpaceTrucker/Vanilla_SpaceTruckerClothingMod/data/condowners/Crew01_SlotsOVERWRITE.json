@@ -1,5 +1,5 @@
 [
-    {
+  {
     "strName" : "Crew01",
     "strNameShort" : "Person",
     "strItemDef" : "Crew",
@@ -120,7 +120,8 @@
       "SOCInviteToLoopMonoNB",
       "SOCPartnerKiss",
       "SOCBreakUp",
-      "SOCBreakUpPlayer"
+      "SOCBreakUpPlayer",
+      "ClaimBounty"
     ],
     "aStartingConds" : [
       "IsAIAgent=1.0x1",

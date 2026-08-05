@@ -1,0 +1,71 @@
+[
+    {
+    "strName" : "ItmSpaceTruckerEinkPDA_S01_B00_C01",
+    "strImg"  : "ItmSpaceTruckerEinkPDA_S01_B00_C01",
+    "strImgNorm"  : "ItmSpaceTruckerEinkPDA_n",
+    "strImgDamaged" : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
+    "strDmgColor" : "DamageTintNone",
+    "nDmgMode" : 1,
+    "fZScale"  : 0.02,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmSpaceTruckerEinkPDA_S02_B00_C01",
+    "strImg"  : "ItmSpaceTruckerEinkPDA_S02_B00_C01",
+    "strImgNorm"  : "ItmSpaceTruckerEinkPDA_n",
+    "strImgDamaged" : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
+    "strDmgColor" : "DamageTintNone",
+    "nDmgMode" : 1,
+    "fZScale"  : 0.02,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
+    "strImg"  : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
+    "strImgNorm"  : "ItmSpaceTruckerEinkPDA_n",
+    "strImgDamaged" : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
+    "strDmgColor" : "DamageTintRust",
+    "nDmgMode" : 1,
+    "fZScale"  : 0.02,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  }
+]

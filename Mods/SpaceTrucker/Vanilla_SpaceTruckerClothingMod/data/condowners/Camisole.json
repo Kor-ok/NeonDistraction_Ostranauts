@@ -29,8 +29,7 @@
       "StatArmorBlunt=1.0x0.05",
       "StatArmorCut=1.0x0.1",
       "IsCategoryTextiles=1.0x1",
-      "IsWeber=1.0x1",
-      "IsNSBreastSizeMatters=1.0x1" // Compatibility with NS through /conditions_simple/IsHughes.json
+      "IsWeber=1.0x1"
     ],
     "mapChargeProfiles"  : [
       "Melee","MeleeAttackDefault",

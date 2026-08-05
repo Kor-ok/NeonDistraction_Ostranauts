@@ -1,0 +1,10 @@
+[
+    {
+        "strName" : "IsHughes", 
+        "strNameFriendly" : "Hughes", 
+        "strColor" : "Neutral",  
+        "strDesc"  : "[us] [is] a Hughes Spacecraft brand item.", 
+        "nDisplaySelf" : 2, 
+        "nDisplayOther" : 2
+    }
+]
