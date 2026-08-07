@@ -1,0 +1,21 @@
+[
+    {
+    "strName" : "TXTPortrait_Inara",
+    "aCOs"    : [
+      "pbaseEyes_Inara=1.0x1|pbaseEyesMissing=1.0x1",
+      "pbaseGlassesA01=1.0x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHead_Inara=1.0x1|pbaseHeadMissing=1.0x1",
+      "pbaseLips_Inara=1.0x1|pbaseLipsMissing=1.0x1",
+      "pbaseNeck_Inara=1.0x1|pbaseNeckMissing=1.0x1",
+      "pbaseNose_Inara=1.0x1|pbaseNoseMissing=1.0x1",
+      "pbasePupilsB01=1.0x1|pbasePupilsMissing=1.0x1",
+      "pbaseScarA01=1.0x1|pbaseScarMissing=1.0x1",
+      "pbaseTeethA01=1.0x1|pbaseTeethMissing=1.0x1",
+      "pbaseHairA01=1.0x1|pbaseHairMissing=1.0x1",
+      "pbaseBeardA01=1.0x1|pbaseBeardMissing=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "text"
+  }
+]
