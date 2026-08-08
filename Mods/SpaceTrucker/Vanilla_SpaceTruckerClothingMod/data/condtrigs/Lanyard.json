@@ -1,0 +1,32 @@
+[
+    { 
+        "strName" : "TIsFitContainerPermit", 
+        "strCondName" : "", 
+        "fChance" : 1.0, 
+        "fCount" : 1.0, 
+        "aReqs" : [ "IsPermitOKLGSalvage" ], 
+        "aForbids" : [ ], 
+        "aTriggers" : [ "TIsFitContainerSolid" ], 
+        "bAND" : true 
+    },
+    { 
+        "strName" : "CTWearingSpaceTruckerShortsHughes", 
+        "strCondName" : "", 
+        "fChance" : 1.0, 
+        "fCount" : 1.0, 
+        "aReqs" : [ ], 
+        "aForbids" : [ ], 
+        "aTriggers" : [ "TIsWearingSpaceTruckerShortsHughes" ], 
+        "bAND" : true 
+    },
+    { 
+        "strName" : "TIsWearingSpaceTruckerShortsHughes", 
+        "strCondName" : "", 
+        "fChance" : 1.0, 
+        "fCount" : 1.0, 
+        "aReqs" : [ "IsWearingSpaceTruckerShortsHughes" ], 
+        "aForbids" : [ ], 
+        "aTriggers" : [ ], 
+        "bAND" : true 
+    }
+]

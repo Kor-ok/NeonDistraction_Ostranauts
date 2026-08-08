@@ -1,0 +1,16 @@
+[
+    {
+    "strName" : "pocket_Permit01",
+    "strNameFriendly" : "Permit Compartment",
+    "strHitboxImage" : "blank",
+    "nItems" : 1,
+    "nDepth" : 15,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  }
+]

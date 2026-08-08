@@ -3,7 +3,7 @@
     "strName" : "ItmSpaceTruckerEinkPDA_S01_B00_C01",
     "strNameShort" : "PDA",
     "strNameFriendly" : "NASA \"E-Ink\" PDA",
-    "strDesc" : "A NASA handheld PDA. A ubiquitous personal item that can be used to store contacts, manage crew and to do lists, take photos, etc. Will interface with most electronic subsystems, like ship navstations, or other personal computers.",
+    "strDesc" : "A NASA handheld E-Ink display PDA jailbroken to use 仁保 os. A ubiquitous personal item that can be used to store contacts, manage crew and to do lists, take photos, etc. Will interface with most electronic subsystems, like ship navstations, or other personal computers.",
     "strItemDef" : "ItmSpaceTruckerEinkPDA_S01_B00_C01",
     "strType"    : "Item",
     "strLoot"    : "ItmPDADataStorageNew",
@@ -23,8 +23,8 @@
       "IsPocketable=1.0x1.0",
       "IsClippable=1.0x1.0",
       "StatComputerCPUArchitecture=1x0.5",
-      "StatComputerCPUCores=1.0x32",
-      "StatComputerDataStorage=1.0x4.0",
+      "StatComputerCPUCores=1.0x16",
+      "StatComputerDataStorage=1.0x8.0",
       "StatComputerNRAM=1.0x1",
       "StatBasePrice=1.0x270",
       "StatDismantleProgressMax=1.0x230",
@@ -56,9 +56,9 @@
     "strPortraitImg"  : "paperdoll/held/portSpaceTruckerEinkPDA_S01_B00_C01",
     "strAudioEmitter" : "ItmMediumPartsGeneralSound01",
     "mapSlotEffects" : [
-      "wristL","WristPDA01Full",
-      "heldL","HeldLWristPDA01On",
-      "heldR","HeldRWristPDA01On"
+      "wristL","WristSpaceTruckerEinkPDA_S01_B00_C01",
+      "heldL","HeldLWristSpaceTruckerEinkPDA_S01_B00_C01",
+      "heldR","HeldRWristSpaceTruckerEinkPDA_S01_B00_C01"
     ],
     "jsonPI"            : null
   },
@@ -66,7 +66,7 @@
     "strName" : "ItmSpaceTruckerEinkPDA_S02_B00_C01",
     "strNameShort" : "PDA",
     "strNameFriendly" : "NASA \"E-Ink\" PDA (Locked)",
-    "strDesc" : "A NASA handheld PDA. A ubiquitous personal item that can be used to store contacts, manage crew and to do lists, take photos, etc. Will interface with most electronic subsystems, like ship navstations, or other personal computers.",
+    "strDesc" : "A NASA handheld E-Ink display PDA jailbroken to use 仁保 os. A ubiquitous personal item that can be used to store contacts, manage crew and to do lists, take photos, etc. Will interface with most electronic subsystems, like ship navstations, or other personal computers.",
     "strItemDef" : "ItmSpaceTruckerEinkPDA_S02_B00_C01",
     "strType"    : "Item",
     "strLoot"    : "ItmPDADataStorageNew",
@@ -85,8 +85,8 @@
       "IsPocketable=1.0x1.0",
       "IsClippable=1.0x1.0",
       "StatComputerCPUArchitecture=1x0.5",
-      "StatComputerCPUCores=1.0x32",
-      "StatComputerDataStorage=1.0x4.0",
+      "StatComputerCPUCores=1.0x16",
+      "StatComputerDataStorage=1.0x8.0",
       "StatComputerNRAM=1.0x1",
       "StatBasePrice=1.0x270",
       "StatDismantleProgressMax=1.0x230",
@@ -116,9 +116,9 @@
     "strPortraitImg"  : "paperdoll/held/portSpaceTruckerEinkPDA_S02_B00_C01",
     "strAudioEmitter" : "ItmMediumPartsGeneralSound01",
     "mapSlotEffects" : [
-      "wristL","WristPDA01LockedFull",
-      "heldL","HeldLWristPDA01LockOn",
-      "heldR","HeldRWristPDA01LockOn"
+      "wristL","WristSpaceTruckerEinkPDA_S02_B00_C01",
+      "heldL","HeldLWristSpaceTruckerEinkPDA_S02_B00_C01",
+      "heldR","HeldRWristSpaceTruckerEinkPDA_S02_B00_C01"
     ],
     "jsonPI"            : null
   },
@@ -126,7 +126,7 @@
     "strName" : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
     "strNameShort" : "PDA",
     "strNameFriendly" : "NASA \"E-Ink\" PDA (Damaged)",
-    "strDesc" : "A NASA handheld PDA. A ubiquitous personal item that can be used to store contacts, manage crew and to do lists, take photos, etc. Will interface with most electronic subsystems, like ship navstations, or other personal computers.",
+    "strDesc" : "A NASA handheld E-Ink display PDA jailbroken to use 仁保 os. A ubiquitous personal item that can be used to store contacts, manage crew and to do lists, take photos, etc. Will interface with most electronic subsystems, like ship navstations, or other personal computers.",
     "strItemDef" : "ItmSpaceTruckerEinkPDA_S03_B00_C01",
     "strType"    : "Item",
     "strLoot"    : "ItmPDADataStorageNew",
@@ -145,8 +145,8 @@
       "IsPocketable=1.0x1.0",
       "IsClippable=1.0x1.0",
       "StatComputerCPUArchitecture=1x0.5",
-      "StatComputerCPUCores=1.0x32",
-      "StatComputerDataStorage=1.0x4.0",
+      "StatComputerCPUCores=1.0x16",
+      "StatComputerDataStorage=1.0x8.0",
       "StatComputerNRAM=1.0x1",
       "StatBasePrice=1.0x22",
       "StatDismantleProgressMax=1.0x230",
@@ -175,9 +175,9 @@
     "strPortraitImg"  : "paperdoll/held/portSpaceTruckerEinkPDA_S03_B00_C01",
     "strAudioEmitter" : "ItmMediumPartsGeneralSound01",
     "mapSlotEffects" : [
-      "wristL","WristPDA01DmgFull",
-      "heldL","HeldLWristPDA01Dmg",
-      "heldR","HeldRWristPDA01Dmg"
+      "wristL","WristSpaceTruckerEinkPDA_S03_B00_C01",
+      "heldL","HeldLWristSpaceTruckerEinkPDA_S03_B00_C01",
+      "heldR","HeldRWristSpaceTruckerEinkPDA_S03_B00_C01"
     ],
     "jsonPI"            : null
   }

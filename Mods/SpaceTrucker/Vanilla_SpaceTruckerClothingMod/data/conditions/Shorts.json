@@ -1,0 +1,12 @@
+[
+    {
+        "strName" : "IsWearingSpaceTruckerShortsHughes", 
+        "strNameFriendly" : "Wearing Hughes Spacecraft branded shorts", 
+        "strColor" : "Neutral",  
+        "strDesc"  : "[us] [is] wearing Hughes Spacecraft branded shorts.",
+        "nDisplaySelf" : 0, 
+        "nDisplayOther" : 0, 
+        "fDuration" : 0.0, 
+        "aPer" : [ ]  
+    }
+]

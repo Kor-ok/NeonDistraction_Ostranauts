@@ -21,7 +21,8 @@
       "StatSleepComfort=1.0x0.1",
       "StatHygieneRate=1.0x0.1",
       "-StatFatigueCoeff=1.0x0.1",
-      "-StatEncumbrance=1.0x0.1"
+      "-StatEncumbrance=1.0x0.1",
+      "IsWearingSpaceTruckerShortsHughes=1.0x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -36,7 +37,8 @@
       "-StatSleepComfort=1.0x0.1",
       "-StatHygieneRate=1.0x0.1",
       "StatFatigueCoeff=1.0x0.1",
-      "StatEncumbrance=1.0x0.1"
+      "StatEncumbrance=1.0x0.1",
+      "-IsWearingSpaceTruckerShortsHughes=1.0x1"
     ],
     "aLoots": [],
     "strType": "condition"
