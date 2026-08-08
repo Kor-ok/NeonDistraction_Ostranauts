@@ -21,5 +21,35 @@
     ],
     "strType" : "item",
     "bNested" : true
+  },
+  {
+    "strName" : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Apply",
+    "aCOs"    : [
+      "IsPDAVizReset=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "condition"
+  },
+  {
+    "strName" : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Remove",
+    "aCOs"    : [
+      "IsPDAVizReset=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "condition"
+  },
+  { 
+    "strName" : "CONDWristSlotted",
+    "aCOs" : [ "IsWristSlotted=1.0x1" ], 
+    "aLoots" : [], 
+    "strType" : "condition" 
+  },
+  { 
+    "strName" : "CONDWristSlottedRemove",
+    "aCOs" : [ "-IsWristSlotted=1.0x1" ],
+    "aLoots" : [],
+    "strType" : "condition"
   }
 ]

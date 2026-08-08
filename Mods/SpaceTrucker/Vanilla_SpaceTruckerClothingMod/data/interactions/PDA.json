@@ -1,0 +1,92 @@
+[
+    {
+    "strName" : "SLOT_WristSpaceTruckerEinkPDA_S01_B00_C01",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWristSlotted",
+    "LootCondsThem"       : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Apply",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  },
+  {
+    "strName" : "UNSLOT_WristSpaceTruckerEinkPDA_S01_B00_C01",
+    "strDesc" : "[us] is unslotted from [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWristSlottedRemove",
+    "LootCondsThem"       : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Remove",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  },
+  {
+    "strName" : "SLOT_WristSpaceTruckerEinkPDA_S02_B00_C01",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWristSlotted",
+    "LootCondsThem"       : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Apply", //Note: This is the same as the S01 slot
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  },
+  {
+    "strName" : "UNSLOT_WristSpaceTruckerEinkPDA_S02_B00_C01",
+    "strDesc" : "[us] is unslotted from [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWristSlottedRemove",
+    "LootCondsThem"       : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Remove", //Note: This is the same as the S01 slot
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  },
+  {
+    "strName" : "SLOT_WristSpaceTruckerEinkPDA_S03_B00_C01",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWristSlotted",
+    "LootCondsThem"       : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Apply",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  },
+  {
+    "strName" : "UNSLOT_WristSpaceTruckerEinkPDA_S03_B00_C01",
+    "strDesc" : "[us] is unslotted from [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWristSlottedRemove",
+    "LootCondsThem"       : "COND_WristSpaceTruckerEinkPDA_S01_B00_C01_Remove", //Note: This is the same as the S01 slot
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  }
+]

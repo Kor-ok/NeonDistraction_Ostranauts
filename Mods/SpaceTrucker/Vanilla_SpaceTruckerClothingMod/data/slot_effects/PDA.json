@@ -5,8 +5,8 @@
     "strSlotImageUnder" : null,
     "strIASlot" : null,
     "strIAUnslot" : null,
-    "strIASlotParents" : "SLOTWristPDA01",
-    "strIAUnslotParents" : "UNSLOTWristPDA01",
+    "strIASlotParents" : "SLOT_WristSpaceTruckerEinkPDA_S01_B00_C01",
+    "strIAUnslotParents" : "UNSLOT_WristSpaceTruckerEinkPDA_S01_B00_C01",
     "mapMeshTextures" : [
     ]
   },
@@ -16,8 +16,8 @@
     "strSlotImageUnder" : null,
     "strIASlot" : null,
     "strIAUnslot" : null,
-    "strIASlotParents" : "SLOTWristPDA01Locked",
-    "strIAUnslotParents" : "UNSLOTWristPDA01Locked",
+    "strIASlotParents" : "SLOT_WristSpaceTruckerEinkPDA_S02_B00_C01",
+    "strIAUnslotParents" : "UNSLOT_WristSpaceTruckerEinkPDA_S02_B00_C01",
     "mapMeshTextures" : [
     ]
   },
@@ -27,8 +27,84 @@
     "strSlotImageUnder" : null,
     "strIASlot" : null,
     "strIAUnslot" : null,
-    "strIASlotParents" : "SLOTWristPDA01Dmg",
-    "strIAUnslotParents" : "UNSLOTWristPDA01Dmg",
+    "strIASlotParents" : "SLOT_WristSpaceTruckerEinkPDA_S03_B00_C01",
+    "strIAUnslotParents" : "UNSLOT_WristSpaceTruckerEinkPDA_S03_B00_C01",
+    "mapMeshTextures" : [
+    ]
+  },
+  // HELD
+  {
+    "strName" : "HeldLWristSpaceTruckerEinkPDA_S01_B00_C01",
+    "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S01_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTHandPDA01L",
+    "strIAUnslotParents" : "UNSLOTHandPDA01L",
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldRWristSpaceTruckerEinkPDA_S01_B00_C01",
+    "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S01_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTHandPDA01R",
+    "strIAUnslotParents" : "UNSLOTHandPDA01R",
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldLWristSpaceTruckerEinkPDA_S02_B00_C01",
+    "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S02_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTHandPDA01L",
+    "strIAUnslotParents" : "UNSLOTHandPDA01L",
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldRWristSpaceTruckerEinkPDA_S02_B00_C01",
+    "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S02_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTHandPDA01R",
+    "strIAUnslotParents" : "UNSLOTHandPDA01R",
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldLWristSpaceTruckerEinkPDA_S03_B00_C01",
+    "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S03_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldRWristSpaceTruckerEinkPDA_S03_B00_C01",
+    "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S03_B00_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "bMirror" : true,
+    "bWholeBody" : true,
     "mapMeshTextures" : [
     ]
   }
