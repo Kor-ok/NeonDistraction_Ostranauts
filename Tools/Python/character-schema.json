@@ -1,0 +1,579 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Character",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "strID": {
+        "type": "string"
+      },
+      "strCODef": {
+        "type": "string"
+      },
+      "bAlive": {
+        "type": "boolean"
+      },
+      "aConds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "aCondRules": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "strCondID": {
+        "type": "string"
+      },
+      "inventoryX": {
+        "type": "number"
+      },
+      "inventoryY": {
+        "type": "number"
+      },
+      "aMessages2": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "strName": {
+              "type": "string"
+            },
+            "strMessage": {
+              "type": "string"
+            },
+            "strColor": {
+              "type": "string"
+            },
+            "strOwner": {
+              "type": "string"
+            },
+            "fTime": {
+              "type": "number"
+            },
+            "nCount": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "strName",
+            "strMessage",
+            "strColor",
+            "strOwner",
+            "fTime",
+            "nCount"
+          ]
+        }
+      },
+      "fDGasTemp": {
+        "type": "number"
+      },
+      "fLastICOUpdate": {
+        "type": "number"
+      },
+      "aAttackIAs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "nDestTile": {
+        "type": "number"
+      },
+      "strDestCO": {
+        "type": "string"
+      },
+      "strDestShip": {
+        "type": "string"
+      },
+      "strIdleAnim": {
+        "type": "string"
+      },
+      "strBodyType": {
+        "type": "string"
+      },
+      "aFaceParts": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "dictRecentlyTried": {
+        "type": "object",
+        "properties": {
+          "f82e7153-f184-4e07-8e14-445d76c6c8b8GUIChargenBodyStarter": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "f82e7153-f184-4e07-8e14-445d76c6c8b8GUIChargenBodyStarter"
+        ]
+      },
+      "aRememberIAs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "cgs": {
+        "type": "object",
+        "properties": {
+          "strFirstName": {
+            "type": "string"
+          },
+          "strLastName": {
+            "type": "string"
+          },
+          "aCareers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "strJC": {
+                  "type": "string"
+                },
+                "aSkillsChosen": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "aEvents": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "aSocials": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "aShips": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "strStartATC": {
+                  "type": "string"
+                },
+                "fStartATCRange": {
+                  "type": "number"
+                },
+                "fShipCashReward": {
+                  "type": "number"
+                },
+                "fShipMortgage": {
+                  "type": "number"
+                },
+                "fShipDmgMax": {
+                  "type": "number"
+                },
+                "bFirst": {
+                  "type": "boolean"
+                },
+                "bShipOwned": {
+                  "type": "boolean"
+                },
+                "nAge": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "strJC",
+                "aSkillsChosen",
+                "aEvents",
+                "aSocials",
+                "aShips",
+                "strStartATC",
+                "fStartATCRange",
+                "fShipCashReward",
+                "fShipMortgage",
+                "fShipDmgMax",
+                "bFirst",
+                "bShipOwned",
+                "nAge"
+              ]
+            }
+          },
+          "bCareerEnded": {
+            "type": "boolean"
+          },
+          "strRegIDChosen": {
+            "type": "string"
+          },
+          "strJSH": {
+            "type": "string"
+          },
+          "nStrata": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "strFirstName",
+          "strLastName",
+          "aCareers",
+          "bCareerEnded",
+          "strRegIDChosen",
+          "strJSH",
+          "nStrata"
+        ]
+      },
+      "social": {
+        "type": "object",
+        "properties": {
+          "aPSpecsValues": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "FullName": {
+                  "type": "string"
+                },
+                "strName": {
+                  "type": "string"
+                },
+                "strFirstName": {
+                  "type": "string"
+                },
+                "strLastName": {
+                  "type": "string"
+                },
+                "strGender": {
+                  "type": "string"
+                },
+                "strSkin": {
+                  "type": "string"
+                },
+                "strBodyType": {
+                  "type": "string"
+                },
+                "strCareerNow": {
+                  "type": "string"
+                },
+                "strHomeworldNow": {
+                  "type": "string"
+                },
+                "nStrata": {
+                  "type": "number"
+                },
+                "nAgeMin": {
+                  "type": "number"
+                },
+                "nAgeMax": {
+                  "type": "number"
+                },
+                "bAlive": {
+                  "type": "boolean"
+                },
+                "strLootConds": {
+                  "type": "string"
+                },
+                "strLoot": {
+                  "type": "string"
+                },
+                "strLootIAAdds": {
+                  "type": "string"
+                },
+                "strCO": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "FullName",
+                "strName",
+                "strFirstName",
+                "strLastName",
+                "strGender",
+                "strSkin",
+                "strBodyType",
+                "strCareerNow",
+                "strHomeworldNow",
+                "nStrata",
+                "nAgeMin",
+                "nAgeMax",
+                "bAlive",
+                "strLootConds",
+                "strLoot",
+                "strLootIAAdds",
+                "strCO"
+              ]
+            }
+          },
+          "aRelationships2": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "strPSpec": {
+                  "type": "string"
+                },
+                "aRelationships": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "aEvents": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "dictConds": {
+                  "type": "object",
+                  "properties": {
+                    "StatAchievement": {
+                      "type": "number"
+                    },
+                    "StatAltruism": {
+                      "type": "number"
+                    },
+                    "StatAutonomy": {
+                      "type": "number"
+                    },
+                    "StatContact": {
+                      "type": "number"
+                    },
+                    "StatEsteem": {
+                      "type": "number"
+                    },
+                    "StatFamily": {
+                      "type": "number"
+                    },
+                    "StatIntimacy": {
+                      "type": "number"
+                    },
+                    "StatMeaning": {
+                      "type": "number"
+                    },
+                    "StatPrivacy": {
+                      "type": "number"
+                    },
+                    "StatSecurity": {
+                      "type": "number"
+                    },
+                    "StatSelfRespect": {
+                      "type": "number"
+                    },
+                    "StatWeird": {
+                      "type": "number"
+                    },
+                    "StatThreat": {
+                      "type": "number"
+                    },
+                    "StatThreatIntelligent": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "StatAchievement",
+                    "StatAltruism",
+                    "StatAutonomy",
+                    "StatContact",
+                    "StatEsteem",
+                    "StatFamily",
+                    "StatIntimacy",
+                    "StatMeaning",
+                    "StatPrivacy",
+                    "StatSecurity",
+                    "StatSelfRespect",
+                    "StatWeird",
+                    "StatThreat",
+                    "StatThreatIntelligent"
+                  ]
+                },
+                "fFamiliarity": {
+                  "type": "number"
+                },
+                "fAnimosity": {
+                  "type": "number"
+                },
+                "fKindness": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "strPSpec",
+                "aRelationships",
+                "aEvents",
+                "dictConds",
+                "fFamiliarity",
+                "fAnimosity",
+                "fKindness"
+              ]
+            }
+          }
+        },
+        "required": [
+          "aPSpecsValues",
+          "aRelationships2"
+        ]
+      },
+      "aTickers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "strName": {
+              "type": "string"
+            },
+            "strCondLoot": {
+              "type": "string"
+            },
+            "fPeriod": {
+              "type": "number"
+            },
+            "fEpochStart": {
+              "type": "number"
+            },
+            "bQueue": {
+              "type": "boolean"
+            },
+            "bRepeat": {
+              "type": "boolean"
+            },
+            "bTickWhileAway": {
+              "type": "boolean"
+            },
+            "fTimeLeft": {
+              "type": "number"
+            },
+            "nClampMax": {
+              "type": "number"
+            },
+            "strCondUpdate": {
+              "type": "string"
+            },
+            "strCondLootCoeff": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "strName",
+            "fPeriod",
+            "fEpochStart",
+            "bQueue",
+            "bRepeat",
+            "bTickWhileAway",
+            "fTimeLeft",
+            "nClampMax"
+          ]
+        }
+      },
+      "aPledges": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "strName": {
+              "type": "string"
+            },
+            "strUsID": {
+              "type": "string"
+            },
+            "strThemID": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "strName",
+            "strUsID"
+          ]
+        }
+      },
+      "aMyShips": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "aFactions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "strComp": {
+        "type": "string"
+      },
+      "strFriendlyName": {
+        "type": "string"
+      },
+      "strRegIDLast": {
+        "type": "string"
+      },
+      "fMSRedamageAmount": {
+        "type": "number"
+      },
+      "mapIAHist2": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "strCondName": {
+              "type": "string"
+            },
+            "mapInteractions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "strValues": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "strValues"
+                ]
+              }
+            }
+          },
+          "required": [
+            "strCondName",
+            "mapInteractions"
+          ]
+        }
+      }
+    },
+    "required": [
+      "strID",
+      "strCODef",
+      "bAlive",
+      "aConds",
+      "aCondRules",
+      "strCondID",
+      "inventoryX",
+      "inventoryY",
+      "aMessages2",
+      "fDGasTemp",
+      "fLastICOUpdate",
+      "aAttackIAs",
+      "nDestTile",
+      "strDestCO",
+      "strDestShip",
+      "strIdleAnim",
+      "strBodyType",
+      "aFaceParts",
+      "dictRecentlyTried",
+      "aRememberIAs",
+      "cgs",
+      "social",
+      "aTickers",
+      "aPledges",
+      "aMyShips",
+      "aFactions",
+      "strComp",
+      "strFriendlyName",
+      "strRegIDLast",
+      "fMSRedamageAmount",
+      "mapIAHist2"
+    ]
+  }
+}
