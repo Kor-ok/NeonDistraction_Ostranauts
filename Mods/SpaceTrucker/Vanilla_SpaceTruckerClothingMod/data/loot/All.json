@@ -12,7 +12,10 @@
             "ItmSpaceTruckerShortsHughes_S01_B01_C01=1.0x1",
             "ItmSpaceTruckerSocksCompression_S01_B02_C01_L=1.0x1",
             "ItmSpaceTruckerSocksCompression_S01_B02_C01_R=1.0x1",
-            "ItmSpaceTruckerBerwesatNecklace_S01_B00_C01=1.0x1"
+            "ItmSpaceTruckerBerwesatNecklace_S01_B00_C01=1.0x1",
+            "ItmSpaceTruckerLanyard_S01_B00_C01=1.0x1",
+            "ItmSpaceTruckerLanyard_S01_B00_C02=1.0x1",
+            "ItmSpaceTruckerEinkPDANewPlayer=1.0x1"
         ],
         "aLoots": [
         ],
