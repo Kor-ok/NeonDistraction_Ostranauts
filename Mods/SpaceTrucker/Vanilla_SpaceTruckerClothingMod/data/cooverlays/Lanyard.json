@@ -1,0 +1,15 @@
+[
+    {
+        "strName" : "ItmSpaceTruckerLanyard_S01_B00_C02",
+        "strNameFriendly" : "Lanyard: Clippable (holding Permit)",
+        "strDesc" : "A clippable lanyard for holding permits.",
+        "strImg"  : "ItmSpaceTruckerLanyard_S01_B00_C02",
+        "strImgNorm"  : "ItmSpaceTruckerLanyard_n",
+        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C02",
+        "strCOBase"    : "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strCondLoot"    : null,
+        "mapSlotEffects" : [
+            "pants_out", "BodySpaceTruckerLanyard_S01_B00_C02"
+        ]
+    }
+]
