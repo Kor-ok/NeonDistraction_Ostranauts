@@ -20,6 +20,10 @@ spawn AllSpaceTruckerItems
 > [!NOTE]
 > Stats are subject to change
 
+| NASA E-Ink PDA ||
+|-|-|
+| <div align="center"><img alt="NASA PDA icon" src="Vanilla_SpaceTruckerClothingMod/images/paperdoll/held/portSpaceTruckerEinkPDA_S01_B00_C01.png" width="150"></div> | <ul><li>PLACEHOLDER</li></ul> |
+|| `spawn ItmSpaceTruckerEinkPDA_S01_B00_C01` |
 | Ayotimiwa Headphones ||
 |-|-|
 | <div align="center"><img alt="Ayotimiwa Headphones icon" src="Vanilla_SpaceTruckerClothingMod/images/paperdoll/clothing/portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png" width="150"></div> | <ul><li>+StatPiloting = 1.0x0.4</li><li>-StatDefense = 1.0x0.06</li><li>-StatThreat = 1.0x3</li></ul> |
