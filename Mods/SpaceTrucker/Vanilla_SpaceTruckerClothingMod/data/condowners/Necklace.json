@@ -1,10 +1,10 @@
 [
     {
     "strName" : "ItmSpaceTruckerBerwesatNecklace_S01_B00_C01",
-    "strNameShort" : "Berwesat Necklace",
+    "strNameShort" : "Necklace",
     "strItemDef" : "ItmSpaceTruckerBerwesatNecklace_S01_B00_C01",
-    "strDesc" : "A mysterious necklace inscribed with إزري الوسط.",
-    "strNameFriendly" : "Berwesat Necklace",
+    "strDesc" : "A mysterious necklace inscribed with بەرزەخ (Berzex).",
+    "strNameFriendly" : "Berzex Necklace",
     "strType"    : "Item",
     "strLoot"    : null,
     "nStackLimit"    : 1,
