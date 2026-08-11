@@ -60,5 +60,5 @@
     ], 
     "aLoots" : [], 
     "strType" : "condition" 
-  }  // CONDWearingCompressionSocksPer is CONDHypovolemic2Per*0.25 = { "strName" : "CONDHypovolemic2Per", "aCOs" : [ "-StatBloodHealRate=1.0x0.0044", "-StatWoundHealRate=1.0x0.005", "-StatInfectionHealRate=1.0x0.0005", "StatFatigueCoeff=1.0x0.5", "StatSafeTempMin=1.0x2.78", "-StatPassiveRewarmTemp=1.0x0.56", "-ThreshStatEncumbrance=1.0x0.125", "StatFoodRate=1.0x0.15", "StatHydrationRate=1.0x0.15" ], "aLoots" : [], "strType" : "condition" },
+  }
 ]
