@@ -25,7 +25,7 @@
     "aCOs": [
         "StatBodyInsulation=1.0x0.2", 
         "StatThreat=1.0x6",
-        "-IsBarefoot=1.0x1",
+        "-IsBarefoot=1.0x1", // Still not sure why IsBarefoot remains.
         "-StatSafeTempMin=1.0x0.5",
         "StatMovSpeedPenalty=1.0x0.05",
         "ThreshStatGrav=1.0x0.1",
