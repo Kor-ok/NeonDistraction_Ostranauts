@@ -23,5 +23,30 @@
     {   "strName" : "Ganymede Warriors Merchandise",
         "strDesc" : "Ganymede Warriors Merchandise now available...",
         "strRegion" : "Sports"
+    },
+    {
+        "strName": "Briar Nix Jovian",
+        "strDesc": "Signals intelligence analysts report that a Briar Nix-aligned broadcast is now piggybacking on Europa's emergency beacon network. The message repeating every six hours claims that the separatists have established a \"Provisional Jovian Directorate\" and are offering asylum and a path past the Atlantian Blockade to any crew fleeing reprisals in the Galilean Confederacy. Newcal authorities warn that the Directorate may be a fabrication meant to lure desperate refugees into Briar Nix custody, deemed to be human traffickers and a cult...",
+        "strRegion": "Outer System"
+    },
+    {
+        "strName": "Briar Nix Venusian",
+        "strDesc": "A leaked audit from the Venusian Aerostat Registry suggests that Briar Nix sympathizers have infiltrated the review board responsible for maintaining the aging first-generation habitats. The report alleges that key structural data originally withheld by the Old United States during the 2045 aerostat review has been selectively altered to cast doubt on Newcal's modular designs. Officials fear the separatists intend to undermine confidence in the San Francisco-class aerostats ahead of the Los Angeles module's long-delayed...",
+        "strRegion": "Shipping & Inner System"
+    },
+    {
+        "strName": "Briar Nix Reality Show",
+        "strDesc": "This season on \"Frontier Expose\", producers dive into the Briar Nix separatist movement's obsession with the destruction of the NCN Stevie Nicks. Cast members reenact the doomed vessel's final approach to Earth, dramatizing the moment automated US orbital defenses opened fire. The show's controversial twist: a panel of former militia fighters from the Galilean Confederacy debate whether the separatists' belief that the Old US command structure was compromised is paranoia or prophecy. Critics accuse the show of glamorizing extremism, but ratings remain...",
+        "strRegion": "Reality Show"
+    },
+    {
+        "strName": "Briar Nix Economics",
+        "strDesc": "Trade analysts warn that Briar Nix agitation is a core factor in the destabilisation of supply routes between Venusian aerostat colonies in addition to the scourge of seemingly unaligned piracy. Newcal Air Navy COM is yet to release details, sending futures trading...",
+        "strRegion": "Economics"
+    },
+    {
+        "strName": "Briar Nix Crimes",
+        "strDesc": "The History Channel: This season on \"Tin-Foil Pathfinder\": End of Days, we explore the eschatological and fundamentalist Mormon roots of the Briar Nix extremist movement. The gruesome, headless remains of an Old Earth antiquities dealer found in the form of a blood eagle effigy on BCRS Ring Station and the missing Berwesat Pendant originally discovered near Al-Hadar of the Nineveh Governorate...",
+        "strRegion": "True Crime"
     }
 ]
