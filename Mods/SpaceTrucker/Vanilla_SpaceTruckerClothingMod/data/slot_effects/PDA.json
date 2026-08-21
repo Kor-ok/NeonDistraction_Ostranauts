@@ -31,7 +31,7 @@
     "strIAUnslotParents" : "UNSLOT_WristSpaceTruckerEinkPDA_S03_B00_C01",
     "mapMeshTextures" : [
     ]
-  }, // HELD
+  },
   {
     "strName" : "HeldLWristSpaceTruckerEinkPDA_S01_B00_C01",
     "strSlotImage" : "paperdoll/held/heldSpaceTruckerEinkPDA_S01_B00_C01",
