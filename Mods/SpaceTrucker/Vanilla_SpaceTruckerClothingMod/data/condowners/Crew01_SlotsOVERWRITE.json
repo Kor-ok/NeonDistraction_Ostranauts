@@ -311,10 +311,10 @@
       "pants_in",
       "pants_mid",
       "pants_out",
-      "sockL_in", // Added for SpaceTrucker socks
-      "sockR_in", // Added for SpaceTrucker socks
-      "bootL_out", // Added for SpaceTrucker boots
-      "bootR_out", // Added for SpaceTrucker boots
+      "sockL_in", 
+      "sockR_in", 
+      "bootL_out", 
+      "bootR_out", 
       "shirt_in",
       "shirt_mid",
       "shirt_out",
