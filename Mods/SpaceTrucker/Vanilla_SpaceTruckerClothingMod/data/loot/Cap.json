@@ -8,7 +8,7 @@
   {
     "strName": "COND_SpaceTruckerHatWarriors_Apply",
     "aCOs": [
-        "StatBodyInsulation=1.0x0.1" // IsFanBreakoutWarriors=1.0x1
+        "StatBodyInsulation=1.0x0.1"
     ],
     "aLoots": [],
     "strType": "condition"
