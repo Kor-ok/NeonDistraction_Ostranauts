@@ -19,6 +19,9 @@
 ```text
 spawn AllSpaceTruckerItems
 ```
+```text
+spawn AllSpaceTruckerLanyards
+```
 > [!NOTE]
 > Stats are subject to change
 
