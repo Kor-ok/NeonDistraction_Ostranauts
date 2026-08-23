@@ -6,7 +6,19 @@
         "fCount" : 1.0, 
         "aReqs" : [ "IsPermitOKLGSalvage" ], 
         "aForbids" : [ ], 
-        "aTriggers" : [ "TIsFitContainerSolid" ], 
+        "aTriggers" : [ 
+            "TIsFitContainerSolid" 
+        ], 
+        "bAND" : true 
+    },
+    { 
+        "strName" : "TIsYellow", 
+        "strCondName" : "IsYellow", 
+        "fChance" : 1.0, 
+        "fCount" : 1.0, 
+        "aReqs" : [ "IsYellow" ], 
+        "aForbids" : [ ], 
+        "aTriggers" : [ ], 
         "bAND" : true 
     },
     { 

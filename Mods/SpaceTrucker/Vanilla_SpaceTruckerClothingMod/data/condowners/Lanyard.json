@@ -10,6 +10,9 @@
     "strContainerCT"    : "TIsFitContainerPermit",
     "nContainerHeight"   : 1,
     "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsYellow","ItmSpaceTruckerLanyard_S01_B00_C02"
+    ],
     "aInteractions" : [
       "Inventory",
       "EquipItem",
@@ -17,13 +20,12 @@
       "PickupItem"
     ],
     "aStartingConds" : [
-      
       "IsContainer=1.0x1",
-      
       "IsSolid=1.0x1.0",
       "StatMass=1.0x0.01",
       "StatBasePrice=1.0x254.0",
-      "StatDamageMax=1.0x4"
+      "StatDamageMax=1.0x4",
+      "IsEmpty=1.0x1"
     ],
     "mapCondTolerance"       : [
     ],
