@@ -1,4 +1,4 @@
-# Space Trucker Clothing Mod v0.9
+# Space Trucker Clothing Mod v1.11
 **Clothing Assets that mimic the concept art [Space Trucker by Charlie Martin](https://ostranauts.wiki.gg/index.php?curid=4382").**
 ![Space Trucker](readme_assets/640px-Space_Trucker_1440.png)
 
@@ -7,10 +7,12 @@
 
 > [!WARNING]
 > Known Issues:
->+ Boots will layer below clothing like Cargo Pants & Overalls
->   + *Will look into Frederoo's modeswitch logic*
->+ Crew2 Body Slots and Kiosk item spawns are overwritten.
->   + *Likely FUU compatible version needed*
+>+ Boots/Socks layering can get pushed around via other mods
+>   + *Will look into solutions*
+>+ Lanyard appearance currently does not change with Permit
+>   + *Will look into solutions*
+>+ Crew2 Body Slots overwritten.
+>   + *Will cause issues when the game updates this entry*
 
 ## Spawn All Items
 
