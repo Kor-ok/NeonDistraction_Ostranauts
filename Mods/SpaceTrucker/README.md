@@ -9,6 +9,8 @@
 > Known Issues:
 >+ Boots/Socks layering can get pushed around via other mods
 >   + *Will look into solutions*
+>+ IsBarefoot still remains after wearing the boots
+>   + *Not yet certain why but I did see related base game issues*
 >+ Lanyard appearance currently does not change with Permit
 >   + *Will look into solutions*
 >+ Crew2 Body Slots overwritten.
