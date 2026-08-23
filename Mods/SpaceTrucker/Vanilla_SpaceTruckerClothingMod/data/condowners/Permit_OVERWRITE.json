@@ -1,0 +1,282 @@
+[
+    {
+    "strName" : "ItmDocumentPermitOKLG01",
+    "strNameShort" : "Permit",
+    "strNameFriendly" : "Permit: Yellow Ayotimiwa Salvage Permit",
+    "strDesc" : "A bottom-tier 24-hour Ayotimiwa Ship Breaking Co. Salvage Permit. Unexpired permits allow scavengers to salvage derelicts in the OKLG Boneyard without interference from Ayotimiwa Security.",
+    "strItemDef" : "ItmPaper02Loose",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIOneSheet",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsEdged=1.0x1.0",
+      "IsFlammable=1.0x1",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsHoursLeft=1.0x24.0",
+      "IsPermitOKLGSalvage=1.0x1.0",
+      "IsYellow=1.0x1",
+      "IsReadable=1.0x1.0",
+      "IsSheet=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x5000",
+      "StatMass=1.0x0.003",
+      "StatDamageMax=1.0x1",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel OneSheet",
+      "TicketPermitOKLGSalvage"
+    ],
+    "strPortraitImg"  : "ItmPaper02",
+    "strAudioEmitter" : "ItmManualSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "aTickers" : [
+      "PermitOKLGSalvage"
+    ]
+  },
+  {
+    "strName" : "ItmDocumentPermitOKLG01b",
+    "strNameShort" : "Permit",
+    "strNameFriendly" : "Permit: Red Ayotimiwa Salvage Permit",
+    "strDesc" : "A low-tier 72-hour  Ayotimiwa Ship Breaking Co. Salvage Permit. Unexpired permits allow scavengers to salvage derelicts in the OKLG Boneyard without interference from Ayotimiwa Security.",
+    "strItemDef" : "ItmPaper02bLoose",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIOneSheet",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsEdged=1.0x1.0",
+      "IsFlammable=1.0x1",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsHoursLeft=1.0x72.0",
+      "IsPermitOKLGSalvage=1.0x1.0",
+      "IsRed=1.0x1",
+      "IsReadable=1.0x1.0",
+      "IsSheet=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x13500",
+      "StatMass=1.0x0.003",
+      "StatDamageMax=1.0x1",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel OneSheet",
+      "TicketPermitOKLGSalvageB"
+    ],
+    "strPortraitImg"  : "ItmPaper02b",
+    "strAudioEmitter" : "ItmManualSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "aTickers" : [
+      "PermitOKLGSalvage"
+    ]
+  },
+  {
+    "strName" : "ItmDocumentPermitOKLG01c",
+    "strNameShort" : "Permit",
+    "strNameFriendly" : "Permit: Blue Ayotimiwa Salvage Permit",
+    "strDesc" : "A mid-tier 7-day  Ayotimiwa Ship Breaking Co. Salvage Permit. Unexpired permits allow scavengers to salvage derelicts in the OKLG Boneyard without interference from Ayotimiwa Security.",
+    "strItemDef" : "ItmPaper02cLoose",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIOneSheet",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsEdged=1.0x1.0",
+      "IsFlammable=1.0x1",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsHoursLeft=1.0x168.0",
+      "IsPermitOKLGSalvage=1.0x1.0",
+      "IsBlue=1.0x1",
+      "IsReadable=1.0x1.0",
+      "IsSheet=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x30000",
+      "StatMass=1.0x0.003",
+      "StatDamageMax=1.0x1",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel OneSheet",
+      "TicketPermitOKLGSalvageC"
+    ],
+    "strPortraitImg"  : "ItmPaper02c",
+    "strAudioEmitter" : "ItmManualSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "aTickers" : [
+      "PermitOKLGSalvage"
+    ]
+  },
+  {
+    "strName" : "ItmDocumentPermitOKLG01d",
+    "strNameShort" : "Permit",
+    "strNameFriendly" : "Permit: Silver Ayotimiwa Salvage Permit",
+    "strDesc" : "A high-tier 30-day  Ayotimiwa Ship Breaking Co. Salvage Permit. Unexpired permits allow scavengers to salvage derelicts in the OKLG Boneyard without interference from Ayotimiwa Security.",
+    "strItemDef" : "ItmPaper02dLoose",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIOneSheet",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsEdged=1.0x1.0",
+      "IsFlammable=1.0x1",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsHoursLeft=1.0x720.0",
+      "IsPermitOKLGSalvage=1.0x1.0",
+      "IsGray=1.0x1.0",
+      "IsReadable=1.0x1.0",
+      "IsSheet=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x120000",
+      "StatMass=1.0x0.003",
+      "StatDamageMax=1.0x1",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel OneSheet",
+      "TicketPermitOKLGSalvageD"
+    ],
+    "strPortraitImg"  : "ItmPaper02d",
+    "strAudioEmitter" : "ItmManualSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "aTickers" : [
+      "PermitOKLGSalvage"
+    ]
+  },
+  {
+    "strName" : "ItmDocumentPermitOKLG01e",
+    "strNameShort" : "Permit",
+    "strNameFriendly" : "Permit: Black Ayotimiwa Salvage Permit",
+    "strDesc" : "A premium-tier 300-day Ayotimiwa Ship Breaking Co. Salvage Permit. Unexpired permits allow scavengers to salvage derelicts in the OKLG Boneyard without interference from Ayotimiwa Security.",
+    "strItemDef" : "ItmPaper02eLoose",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIOneSheet",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsEdged=1.0x1.0",
+      "IsFlammable=1.0x1",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsHoursLeft=1.0x7200.0",
+      "IsPermitOKLGSalvage=1.0x1.0",
+      "IsBlack=1.0x1",
+      "IsReadable=1.0x1.0",
+      "IsSheet=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x1000000",
+      "StatMass=1.0x0.003",
+      "StatDamageMax=1.0x1",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel OneSheet",
+      "TicketPermitOKLGSalvageE"
+    ],
+    "strPortraitImg"  : "ItmPaper02e",
+    "strAudioEmitter" : "ItmManualSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "aTickers" : [
+      "PermitOKLGSalvage"
+    ]
+  }
+]
