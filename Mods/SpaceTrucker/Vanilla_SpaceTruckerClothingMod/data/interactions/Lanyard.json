@@ -8,8 +8,8 @@
     "nLogging": 0,
     "bOpener": true,
     "LootCondsUs": null,
-    "LootCondsThem": "COND_SpaceTruckerLanyard_Apply",
-    "CTTestUs": "CTWearingSpaceTruckerShortsHughes",
+    "LootCondsThem": null,
+    "CTTestUs": null,
     "CTTestThem": null,
     "aLootItms": []
   },
@@ -21,54 +21,37 @@
     "nLogging": 0,
     "bOpener": true,
     "LootCondsUs": null,
-    "LootCondsThem": "COND_SpaceTruckerLanyard_Remove",
+    "LootCondsThem": null,
     "CTTestUs": null,
     "CTTestThem": null,
     "aLootItms": []
   },
   {
-    "strName" : "MS_SpaceTruckerLanyard_Empty",
-    "strTitle" : "",
-    "strDesc" : "[us] is empty.",
-    "strTargetPoint" : null,
-    "fTargetPointRange" : 0,
-    "strAnim"           : null,
-    "strBubble"         : null,
-    "aInverse"          : [
-    ],
-    "fDuration"         : 0.0,
-    "strThemType"       : "Other",
-    "bIgnoreFeelings" : true,
-    "strRaiseUI"        : null,
-    "LootCTsUs"       : null,
-    "LootCTsThem"     : null,
-    "CTTestUs"           : "TIsFitContainerPermit",
-    "CTTestThem"         : null,
-    "aLootItms"       : [
-    ],
-    "objLootModeSwitch"    : "ItmSpaceTruckerLanyard_S01_B00_C01"
-    },
-    {
-    "strName" : "MS_SpaceTruckerLanyard_Permit01",
-    "strTitle" : "",
-    "strDesc" : "[us] is empty.",
-    "strTargetPoint" : null,
-    "fTargetPointRange" : 0,
-    "strAnim"           : null,
-    "strBubble"         : null,
-    "aInverse"          : [
-    ],
-    "fDuration"         : 0.0,
-    "strThemType"       : "Other",
-    "bIgnoreFeelings" : true,
-    "strRaiseUI"        : null,
-    "LootCTsUs"       : null,
-    "LootCTsThem"     : null,
-    "CTTestUs"           : "TIsFitContainerPermit",
-    "CTTestThem"         : null,
-    "aLootItms"       : [
-    ],
-    "objLootModeSwitch"    : "ItmSpaceTruckerLanyard_S01_B00_C02"
-    }
-      
+    "strName": "SLOT_PocketPermit",
+    "strTitle": "Insert permit",
+    "strDesc": "[us] puts on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 1,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": null,
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName": "UNSLOT_PocketPermit",
+    "strTitle": "Extract permit",
+    "strDesc": "[us] puts on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 1,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": null,
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  }    
 ]

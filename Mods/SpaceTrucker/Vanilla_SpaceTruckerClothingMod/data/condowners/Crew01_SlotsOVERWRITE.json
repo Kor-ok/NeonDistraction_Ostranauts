@@ -315,6 +315,7 @@
       "sockR_in", 
       "bootL_out", 
       "bootR_out",
+      "hip_clip",
       "shirt_in",
       "shirt_mid",
       "shirt_out",

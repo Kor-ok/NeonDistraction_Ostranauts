@@ -11,7 +11,12 @@
     "nContainerHeight"   : 1,
     "nContainerWidth"   : 1,
     "mapAltItemDefs"  : [
-      "IsYellow","ItmSpaceTruckerLanyard_S01_B00_C02"
+      "IsEmpty","ItmSpaceTruckerLanyard_S01_B00_C01",
+      "IsYellow","ItmSpaceTruckerLanyard_S01_B00_C02",
+      "IsRed","ItmSpaceTruckerLanyard_S01_B00_C03",
+      "IsBlue","ItmSpaceTruckerLanyard_S01_B00_C04",
+      "IsGray","ItmSpaceTruckerLanyard_S01_B00_C05",
+      "IsBlack","ItmSpaceTruckerLanyard_S01_B00_C06"
     ],
     "aInteractions" : [
       "Inventory",
@@ -44,10 +49,10 @@
       "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
     ],
     "mapGUIPropMaps"  : null,
-    "strPortraitImg"  : "ItmSpaceTruckerLanyard_S01_B00_C01",
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C01",
     "strAudioEmitter" : "ItmManualSound",
     "mapSlotEffects" : [
-      "pants_out", "BodySpaceTruckerLanyard_S01_B00_C01"
+      "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C01"
     ],
     "jsonPI" : null
   },
@@ -76,7 +81,7 @@
     "strPortraitImg"  : "blank",
     "strAudioEmitter" : "ItmManualSound",
     "mapSlotEffects" : [
-      "pocket_Permit01","Blank"
+      "pocket_Permit01","PocketPermit"
     ],
     "jsonPI"            : null
   }

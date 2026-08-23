@@ -12,5 +12,20 @@
     "bHide" : false,
     "bCarried" : true,
     "bAllowStacks" : false
+  },
+  {
+    "strName": "hip_clip",
+    "strNameFriendly": "Hip Clip Points",
+    "strHitboxImage": "paperdoll/HBabdomenLower",
+    "strIconImage": "paperdoll/HBabdomenLowerIcon",
+    "nItems": 1,
+    "nDepth": 16,
+    "fAlignX": 0.0,
+    "fAlignY": 0.0,
+    "bAlignSlot": false,
+    "bHoldSlot": false,
+    "bHide": false,
+    "bCarried": true,
+    "bAllowStacks": false
   }
 ]
