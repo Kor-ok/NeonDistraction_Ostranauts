@@ -2,7 +2,7 @@
   {
     "strName" : "DataVID_EPCT",
     "strTitle" : "<color=orange>›_ exif \"proj_dione_epct_hh.vid\" -r</color>",
-    "strDesc" : "It’s an older format—highly compressed, laden with redundancy, and built with aggressive error‑correction for laser‑based interplanetary transmission during the colony‑rush era.\n\nThe <color=orange><b><i>metadata</i></b></color> identifies it as part of a promotional series produced by the <color=aqua><u>Hughes Corporation</u></color>—specifically, it appears to originate from a long‑forgotten entertainment and media subsidiary.",
+    "strDesc" : "It's an older format—highly compressed, laden with redundancy, and built with aggressive error correction for laser based interplanetary transmission during the colony rush era.\n\nThe <color=orange><b><i>metadata</i></b></color> identifies it as part of a promotional series produced by the <color=aqua><u>Hughes Corporation</u></color>—specifically, it appears to originate from a long forgotten entertainment and media subsidiary.",
     "strImage"        : "encounters/ENCHughesVid",
     "strColor"      : "Neutral",
     "aInverse"          : [
@@ -16,7 +16,7 @@
   {
     "strName" : "PLAYVID_EPCT01",
     "strTitle" : "<color=orange>›_ 播放器 \"proj_dione_epct_hh.vid\" -play</color>",
-    "strDesc" : "A sharply dressed, charismatic figure in his mid‑fifties — almost paternal in presence, unveils his vision of <i>\"tomorrow\"</i>. He radiates a kind of optimism you haven’t witnessed in years, perhaps not at all in the modern era.\n\n<color=aqua><u>Hieronymus Hughes</u>:</color> <i>\"...PRISM‑Plus\"</i> <color=red>PLACEHOLDER</color>",
+    "strDesc" : "A sharply dressed, charismatic figure in his mid fifties — almost paternal in presence, unveils his vision of <i>\"tomorrow\"</i>. He radiates a kind of optimism you haven't witnessed in years, perhaps not at all in the modern era.\n\n<color=aqua><u>Hieronymus Hughes</u>:</color> <i>\"...PRISM Plus\"</i> <color=red>PLACEHOLDER</color>",
     "strImage"        : "encounters/ENCHughesVidPLAY01",
     "strColor"      : "Neutral",
     "aInverse"          : [
