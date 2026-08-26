@@ -7,33 +7,33 @@
   },
   {
     "strName": "ItmSpaceTruckerLanyard_S01_B00_C02",
-    "aCOs": ["ItmSpaceTruckerLanyard_S01_B00_C02=1.0x1"],
+    "aCOs": ["IsYellow=1.0x1"],
     "aLoots": [],
-    "strType": "item"
+    "strType": "condition"
   },
   {
     "strName": "ItmSpaceTruckerLanyard_S01_B00_C03",
-    "aCOs": ["ItmSpaceTruckerLanyard_S01_B00_C03=1.0x1"],
+    "aCOs": ["IsRed=1.0x1"],
     "aLoots": [],
-    "strType": "item"
+    "strType": "condition"
   },
   {
     "strName": "ItmSpaceTruckerLanyard_S01_B00_C04",
-    "aCOs": ["ItmSpaceTruckerLanyard_S01_B00_C04=1.0x1"],
+    "aCOs": ["IsBlue=1.0x1"],
     "aLoots": [],
-    "strType": "item"
+    "strType": "condition"
   },
   {
     "strName": "ItmSpaceTruckerLanyard_S01_B00_C05",
-    "aCOs": ["ItmSpaceTruckerLanyard_S01_B00_C05=1.0x1"],
+    "aCOs": ["IsGray=1.0x1"],
     "aLoots": [],
-    "strType": "item"
+    "strType": "condition"
   },
   {
     "strName": "ItmSpaceTruckerLanyard_S01_B00_C06",
-    "aCOs": ["ItmSpaceTruckerLanyard_S01_B00_C06=1.0x1"],
+    "aCOs": ["IsBlack=1.0x1"],
     "aLoots": [],
-    "strType": "item"
+    "strType": "condition"
   },
   {
     "strName": "ItmPocketsLanyard01",
