@@ -1,4 +1,4 @@
-# Space Trucker Clothing Mod v1.11
+# Space Trucker Clothing Mod v1.13
 **Clothing Assets that mimic the concept art [Space Trucker by Charlie Martin](https://ostranauts.wiki.gg/index.php?curid=4382").**
 ![Space Trucker](readme_assets/640px-Space_Trucker_1440.png)
 
