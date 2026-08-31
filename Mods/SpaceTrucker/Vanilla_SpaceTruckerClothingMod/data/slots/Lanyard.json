@@ -9,7 +9,7 @@
     "fAlignY" : 0.0,
     "bAlignSlot" : false,
     "bHoldSlot" : false,
-    "bHide" : false,
+    "bHide" : true,
     "bCarried" : true,
     "bAllowStacks" : false
   },

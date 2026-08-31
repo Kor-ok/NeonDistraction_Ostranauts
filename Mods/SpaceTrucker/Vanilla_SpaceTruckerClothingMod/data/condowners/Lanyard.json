@@ -54,6 +54,13 @@
     "mapSlotEffects" : [
       "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C01"
     ],
+    "mapAltSlotImgs"  : [
+	    "ItmSpaceTruckerLanyard_S01_B00_C02", "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C02",
+      "ItmSpaceTruckerLanyard_S01_B00_C03", "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C03",
+      "ItmSpaceTruckerLanyard_S01_B00_C04", "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C04",
+      "ItmSpaceTruckerLanyard_S01_B00_C05", "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C05",
+      "ItmSpaceTruckerLanyard_S01_B00_C06", "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C06"
+    ],
     "jsonPI" : null
   },
     {

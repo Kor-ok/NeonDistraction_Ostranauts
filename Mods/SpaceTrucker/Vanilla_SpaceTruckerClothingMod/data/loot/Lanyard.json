@@ -6,49 +6,11 @@
     "strType": "item"
   },
   {
-    "strName": "ItmSpaceTruckerLanyard_S01_B00_C02",
-    "aCOs": ["IsYellow=1.0x1"],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
-    "strName": "ItmSpaceTruckerLanyard_S01_B00_C03",
-    "aCOs": ["IsRed=1.0x1"],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
-    "strName": "ItmSpaceTruckerLanyard_S01_B00_C04",
-    "aCOs": ["IsBlue=1.0x1"],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
-    "strName": "ItmSpaceTruckerLanyard_S01_B00_C05",
-    "aCOs": ["IsGray=1.0x1"],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
-    "strName": "ItmSpaceTruckerLanyard_S01_B00_C06",
-    "aCOs": ["IsBlack=1.0x1"],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
     "strName": "ItmPocketsLanyard01",
     "aCOs": [
       "PocketPermit01=1x1"
     ],
     "aLoots": [],
     "strType": "item"
-  },
-  { 
-    "strName" : "CONDIsYellowPermit",
-    "aCOs" : [ 
-      "IsYellow=1.0x1"
-    ], 
-    "aLoots" : [], 
-    "strType" : "condition" 
   }
 ]
