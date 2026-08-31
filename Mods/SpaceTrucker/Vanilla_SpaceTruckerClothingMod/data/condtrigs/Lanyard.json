@@ -1,14 +1,16 @@
 [
-    { 
-        "strName" : "TIsFitContainerPermit", 
-        "strCondName" : "", 
-        "fChance" : 1.0, 
-        "fCount" : 1.0, 
-        "aReqs" : [ "IsPermitOKLGSalvage" ], 
-        "aForbids" : [ ], 
-        "aTriggers" : [ 
+    {
+        "strName": "TIsFitContainerPermit",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsPermitOKLGSalvage"
+        ],
+        "aForbids": [],
+        "aTriggers": [
             "TIsFitContainerSolid"
-        ], 
-        "bAND" : true 
+        ],
+        "bAND": true
     }
 ]

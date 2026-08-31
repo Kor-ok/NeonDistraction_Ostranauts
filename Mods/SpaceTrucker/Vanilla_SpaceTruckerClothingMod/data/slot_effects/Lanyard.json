@@ -1,79 +1,72 @@
 [
-  {
-    "strName" : "BodySpaceTruckerLanyard_S01_B00_C01",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C01",
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_SpaceTruckerLanyard",
-    "strIAUnslot" : "UNSLOT_SpaceTruckerLanyard",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerLanyard_S01_B00_C02",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C02",
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_SpaceTruckerLanyard",
-    "strIAUnslot" : "UNSLOT_SpaceTruckerLanyard",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerLanyard_S01_B00_C03",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C03",
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_SpaceTruckerLanyard",
-    "strIAUnslot" : "UNSLOT_SpaceTruckerLanyard",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerLanyard_S01_B00_C04",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C04",
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_SpaceTruckerLanyard",
-    "strIAUnslot" : "UNSLOT_SpaceTruckerLanyard",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerLanyard_S01_B00_C05",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C05",
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_SpaceTruckerLanyard",
-    "strIAUnslot" : "UNSLOT_SpaceTruckerLanyard",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerLanyard_S01_B00_C06",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C06",
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_SpaceTruckerLanyard",
-    "strIAUnslot" : "UNSLOT_SpaceTruckerLanyard",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  },
-  {
-    "strName" : "PocketPermit",
-    "strSlotImage" : null,
-    "strSlotImageUnder" : null,
-    "strIASlot" : "SLOT_PocketPermit",
-    "strIAUnslot" : "UNSLOT_PocketPermit",
-    "strIASlotParents" : null,
-    "strIAUnslotParents" : null,
-    "mapMeshTextures" : [
-    ]
-  }
+    {
+        "strName": "BodySpaceTruckerLanyard_S01_B00_C01",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C01",
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_SpaceTruckerLanyard",
+        "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    },
+    {
+        "strName": "BodySpaceTruckerLanyard_S01_B00_C02",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C02",
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_SpaceTruckerLanyard",
+        "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    },
+    {
+        "strName": "BodySpaceTruckerLanyard_S01_B00_C03",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C03",
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_SpaceTruckerLanyard",
+        "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    },
+    {
+        "strName": "BodySpaceTruckerLanyard_S01_B00_C04",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C04",
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_SpaceTruckerLanyard",
+        "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    },
+    {
+        "strName": "BodySpaceTruckerLanyard_S01_B00_C05",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C05",
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_SpaceTruckerLanyard",
+        "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    },
+    {
+        "strName": "BodySpaceTruckerLanyard_S01_B00_C06",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C06",
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_SpaceTruckerLanyard",
+        "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    },
+    {
+        "strName": "PocketPermit",
+        "strSlotImage": null,
+        "strSlotImageUnder": null,
+        "strIASlot": "SLOT_PocketPermit",
+        "strIAUnslot": "UNSLOT_PocketPermit",
+        "strIASlotParents": null,
+        "strIAUnslotParents": null,
+        "mapMeshTextures": []
+    }
 ]
