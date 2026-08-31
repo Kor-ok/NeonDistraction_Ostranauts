@@ -10,7 +10,6 @@
     "aInteractions" : [
       "GUIComputer",
       "Inventory",
-      "SeekIntimacySolo",
       "DropItem",
       "PickupItem"
     ],
@@ -47,7 +46,8 @@
     ],
     "aSlotsWeHave" : [ 
       "data",
-      "pdaCards"
+      "pdaCards",
+      "pdaCardsNASA"
     ],
     "mapGUIPropMaps"  : [
       "Computer", "Computer",
@@ -178,6 +178,67 @@
       "wristL","WristSpaceTruckerEinkPDA_S03_B00_C01",
       "heldL","HeldLWristSpaceTruckerEinkPDA_S03_B00_C01",
       "heldR","HeldRWristSpaceTruckerEinkPDA_S03_B00_C01"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "PocketNASAPDACards01",
+    "strNameShort" : "PDA Cards",
+    "strItemDef" : "Blank",
+    "strDesc" : "A card expansion slot.",
+    "strNameFriendly" : "NASA \"EInk\" PDA Expansion Slots",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsPDACartContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsPDACartridge",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "blank",
+    "strAudioEmitter" : "ItmBatteryGeneralSound",
+    "mapSlotEffects" : [
+      "pdaCardsNASA","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "PocketPDACarts01",
+    "strNameShort" : "PDA Carts",
+    "strItemDef" : "Blank",
+    "strDesc" : "A cart container.",
+    "strNameFriendly" : "Renbao \"Portal\" PDA Cart Compartment",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsPDACartContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsPDACartridge",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "blank",
+    "strAudioEmitter" : "ItmBatteryGeneralSound",
+    "mapSlotEffects" : [
+      "pdaCards","Blank",
+      "pdaCardsNASA","Blank"
     ],
     "jsonPI"            : null
   }

@@ -1,88 +1,109 @@
 [
     {
-    "strName" : "ItmSpaceTruckerLanyard_S01_B00_C01",
-    "strNameShort" : "Lanyard",
-    "strNameFriendly" : "Lanyard: Clippable",
-    "strDesc" : "A clippable lanyard for holding permits.",
-    "strItemDef" : "ItmSpaceTruckerLanyard_S01_B00_C01",
-    "strType"    : "Item",
-    "strLoot"    : "ItmPocketsLanyard01",
-    "strContainerCT"    : "TIsFitContainerPermit",
-    "nContainerHeight"   : 1,
-    "nContainerWidth"   : 1,
-    "mapAltItemDefs"  : [
-      "IsEmpty","ItmSpaceTruckerLanyard_S01_B00_C01",
-      "IsYellow","ItmSpaceTruckerLanyard_S01_B00_C02",
-      "IsRed","ItmSpaceTruckerLanyard_S01_B00_C03",
-      "IsBlue","ItmSpaceTruckerLanyard_S01_B00_C04",
-      "IsGray","ItmSpaceTruckerLanyard_S01_B00_C05",
-      "IsBlack","ItmSpaceTruckerLanyard_S01_B00_C06"
-    ],
-    "aInteractions" : [
-      "Inventory",
-      "EquipItem",
-      "DropItem",
-      "PickupItem"
-    ],
-    "aStartingConds" : [
-      "IsContainer=1.0x1",
-      "IsSolid=1.0x1.0",
-      "StatMass=1.0x0.01",
-      "StatBasePrice=1.0x254.0",
-      "StatDamageMax=1.0x4",
-      "IsEmpty=1.0x1"
-    ],
-    "mapCondTolerance"       : [
-    ],
-    "mapPoints"      : [
-    ],
-    "aSlotsWeHave" : [
-      "pocket_Permit01"
-    ],
-    "dictSlotsLayout" : {
-      "pocket_Permit01" : { "x" : 0.0, "y" : 0.0, "z" : 0.0 }
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strNameShort": "Lanyard",
+        "strNameFriendly": "Lanyard: Clippable",
+        "strDesc": "A clippable lanyard for holding permits.",
+        "strItemDef": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strType": "Item",
+        "strLoot": "ItmPocketsLanyard01",
+        "strContainerCT": "TIsFitContainerPermit",
+        "nContainerHeight": 1,
+        "nContainerWidth": 1,
+        "mapAltItemDefs": [
+            "IsEmpty",
+            "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "IsYellow",
+            "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "IsRed",
+            "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "IsBlue",
+            "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "IsGray",
+            "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "IsBlack",
+            "ItmSpaceTruckerLanyard_S01_B00_C06"
+        ],
+        "aInteractions": [
+            "Inventory",
+            "EquipItem",
+            "DropItem",
+            "PickupItem"
+        ],
+        "aStartingConds": [
+            "IsContainer=1.0x1",
+            "IsSolid=1.0x1.0",
+            "StatMass=1.0x0.01",
+            "StatBasePrice=1.0x254.0",
+            "StatDamageMax=1.0x4",
+            "IsEmpty=1.0x1"
+        ],
+        "mapCondTolerance": [],
+        "mapPoints": [],
+        "aSlotsWeHave": [
+            "pocket_Permit01"
+        ],
+        "dictSlotsLayout": {
+            "pocket_Permit01": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "mapChargeProfiles": [
+            "Melee",
+            "MeleeAttackDefault"
+        ],
+        "aUpdateCommands": [
+            "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+        ],
+        "mapGUIPropMaps": null,
+        "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C01",
+        "strAudioEmitter": "ItmManualSound",
+        "mapSlotEffects": [
+            "hip_clip",
+            "BodySpaceTruckerLanyard_S01_B00_C01"
+        ],
+        "mapAltSlotImgs": [
+            "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C02",
+            "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C03",
+            "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C04",
+            "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C05",
+            "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C06"
+        ],
+        "jsonPI": null
     },
-    "mapChargeProfiles"  : [
-      "Melee","MeleeAttackDefault"
-    ],
-    "aUpdateCommands" : [
-      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
-    ],
-    "mapGUIPropMaps"  : null,
-    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C01",
-    "strAudioEmitter" : "ItmManualSound",
-    "mapSlotEffects" : [
-      "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C01"
-    ],
-    "jsonPI" : null
-  },
     {
-    "strName" : "PocketPermit01",
-    "strNameShort" : "Permit Compartment",
-    "strItemDef" : "Blank",
-    "strDesc" : "A permit compartment for a lanyard.",
-    "strNameFriendly" : "Lanyard permit compartment",
-    "strType"    : "Item",
-    "strLoot"    : null,
-    "nStackLimit"    : 1,
-    "aInteractions" : [
-    ],
-    "aStartingConds" : [
-      "IsContainer=1.0x1",
-      "IsSystem=1.0x1"
-    ],
-    "bSlotLocked" : true,
-    "strContainerCT"    : "TIsFitContainerPermit",
-    "nContainerHeight"   : 1,
-    "nContainerWidth"   : 1,
-    "mapPoints"      : [
-    ],
-    "mapGUIPropMaps"  : null,
-    "strPortraitImg"  : "blank",
-    "strAudioEmitter" : "ItmManualSound",
-    "mapSlotEffects" : [
-      "pocket_Permit01","PocketPermit"
-    ],
-    "jsonPI"            : null
-  }
+        "strName": "PocketPermit01",
+        "strNameShort": "Permit Compartment",
+        "strItemDef": "Blank",
+        "strDesc": "A permit compartment for a lanyard.",
+        "strNameFriendly": "Lanyard permit compartment",
+        "strType": "Item",
+        "strLoot": null,
+        "nStackLimit": 1,
+        "aInteractions": [],
+        "aStartingConds": [
+            "IsContainer=1.0x1",
+            "IsSystem=1.0x1"
+        ],
+        "bSlotLocked": true,
+        "strContainerCT": "TIsFitContainerPermit",
+        "nContainerHeight": 1,
+        "nContainerWidth": 1,
+        "mapPoints": [],
+        "mapGUIPropMaps": null,
+        "strPortraitImg": "blank",
+        "strAudioEmitter": "ItmManualSound",
+        "mapSlotEffects": [
+            "pocket_Permit01",
+            "PocketPermit"
+        ],
+        "jsonPI": null
+    }
 ]

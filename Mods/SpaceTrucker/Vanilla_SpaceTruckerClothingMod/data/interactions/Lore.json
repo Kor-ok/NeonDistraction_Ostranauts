@@ -1,0 +1,58 @@
+[
+  {
+    "strName" : "DataVID_EPCT",
+    "strTitle" : "<lowercase><color=#ff8e14>›_ exif \"proj_dione_epct_hh.vid\" -r</color></lowercase>",
+    "strDesc" : "It's an older format — highly compressed, laden with redundancy and built with aggressive error correction for laser based interplanetary transmission during the colony rush era.\n\nThe <color=#ff8e14><i>metadata</i></color> identifies it as part of a promotional series produced by the <color=#33a3e9><u>Hughes Corporation</u></color>. Curiously, it appears to originate from a long forgotten entertainment and media subsidiary.",
+    "strImage"        : "encounters/ENCHughesVid",
+    "strColor"      : "Neutral",
+    "aInverse"          : [
+      "PLAYVID_EPCT01", "DataWIKIHughesCorporation"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bIgnoreFeelings"	: true
+  },
+  {
+    "strName" : "PLAYVID_EPCT01",
+    "strTitle" : "<lowercase><color=#ff8e14>›_ 播放器 \"proj_dione_epct_hh.vid\" -play</color></lowercase>",
+    "strDesc" : "<size=75%><cspace=0.1em>A sharply dressed, charismatic figure in his mid fifties — almost paternal in presence, unveils his vision of <i>\"tomorrow\"</i>. He radiates a kind of optimism you haven't witnessed in years, perhaps not at all in the modern era.\n\n<margin=20px><color=#33a3e9><u>Hieronymus Hughes</u></color>: <i>\"... toward the Outer System from the smog of the Labyrinthus and the caustic clouds of the Aerostats, seeking the challenge and promise of the future.\"\n\n\"The Experimental Prototype Colony of Tomorrow is no shelter for the mere sake of survival; it is a whole new concept in human habitation. A living blueprint of the future where people live a life they can't find anywhere else in the System, severed from the <b>doctrines</b> of the past...\"</i></margin></cspace></size>",
+    "strImage"        : "encounters/ENCHughesVidPLAY01",
+    "strColor"      : "Neutral",
+    "aInverse"          : [
+      "DataVID_EPCT", "DataWIKIHughesCorporationHistory"
+    ],
+    "fDuration"         : 0.15,
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bIgnoreFeelings"	: true
+  },
+  {
+    "strName" : "DataWIKIHughesCorporation",
+    "strTitle" : "<color=white>WIKI\/\/:</color><color=#33a3e9>Hughes_Corporation</color>",
+    "strDesc" : "<sup>\u1F512🔒edit locked</sup>The Hughes Corporation (HHC) has lost its legacy Unbordered Entity (UBE) classification and is currently in a state of terminal decline following the disappearance of its eccentric CEO, Hieronymus Hughes, in 2076. It is a conglomerate of several subsidiaries, including Hughes Entertainment and Media, Hughes Industrial and Manufacturing, Dione Medical Innovations and Hughes Trans-Jovian Line. The company has a long history of involvement in interplanetary colonization projects, with a focus on sustainable living and advanced technology development.\n\n<color=#33a3e9><u>Hieronymus Hughes</u></color>, the founder and CEO, is known for his visionary approach to space colonization and his commitment to creating self-sustaining habitats in the Outer System. The company's current projects include the Experimental Prototype Colony of Tomorrow (EPCT) on Dione, which aims to demonstrate new methods of habitation and resource management in extreme environments.\n\n<b>Industry:</b> Heavy Manufacturing & Tooling, Media & Entertainment\n<b>Country of origin:</b> Old United States\n<b>Key people:</b> Di Yaote (interim CEO), Harrison Parr (proxy CCO) \n<b>Ticker symbol:</b> HUCO\n\n<b>Slogans:</b>\nBeyond Borders",
+    "strImage"        : "encounters/WIKIHughesCorporation",
+    "strColor"      : "Neutral",
+    "aInverse"          : [
+      "DataVID_EPCT", "DataWIKIHughesCorporationHistory"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bIgnoreFeelings"	: true
+  },
+  {
+    "strName" : "DataWIKIHughesCorporationHistory",
+    "strTitle" : "<color=white>WIKI\/\/:</color><color=#33a3e9>Hieronymus_Hughes</color>",
+    "strDesc" : "<b>A figure of impossible presence</b> steps forward — <i>shimmering</i> with an energy you cannot name.\n\n<size=150%><color=#00FFFF><u>Test Subject X‑0</u></color></size>:\n\n<indent=20%><i>\"Let us begin the <mark=#FF00FF55>Rich Text Trial</mark>.\"</i></indent>\n\n<line-height=120%>\n<color=white><smallcaps>Small Caps</smallcaps></color> — all flicker across his form.\n</line-height>\n\n<align=\"center\"><size=200%><b><color=#FFAA00>ALIGN CENTER</color></b></size></align>\n<align=\"right\"><size=150%><color=#AAFF00>ALIGN RIGHT</color></size></align>\n<align=\"left\"><size=120%><color=#00AAFF>ALIGN LEFT</color></size></align>\n\n<voffset=10px><color=#FF4444>Vertical Offset Test</color></voffset>\n\n<allcaps>ALL CAPS TEST</allcaps>\n\n<lowercase>LOWERCASE TEST</lowercase>\n\n<uppercase>uppercase test</uppercase>\n\n<margin=30px>Margin Test Block</margin>\n\n<line-indent=15%>Line Indent Test</line-indent>\n\n<pos=+10px>Position Offset Test</pos>\n\n<rotate=15>Rotated Text</rotate>\n\n<scale=1.5>Scaled Text</scale>\n\n<width=30px>Width-Constrained Text Block</width>\n\n<color=#FF00FF><b><i><u>FINAL RENDER CHECK COMPLETE</u></i></b></color>",
+    "strImage"        : "encounters/WIKIHughesCorporationHistory",
+    "strColor"      : "Neutral",
+    "aInverse"          : [
+      "DataVID_EPCT", "DataWIKIHughesCorporation"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bIgnoreFeelings"	: true
+  }
+]

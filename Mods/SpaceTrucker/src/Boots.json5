@@ -1,0 +1,420 @@
+{
+    Asset: "Boots",
+    Overwrites: [
+        "Crew01_SlotsOVERWRITE.json" // file:///./../Vanilla_SpaceTruckerClothingMod/data/condowners/Crew01_SlotsOVERWRITE.json
+    ],
+    condowners: [
+        {
+            "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+            "strNameShort": "Boot L",
+            "strItemDef": "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+            "strDesc": "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
+            "strNameFriendly": "Boot: Black Wing \"Carbide Capped\" (Left)",
+            "strType": "Item",
+            "strLoot": null,
+            "nStackLimit": 1,
+            "aInteractions": [
+                "EquipItem",
+                "DropItem",
+                "PickupItem"
+            ],
+            "aStartingConds": [
+                "IsBlackWing=1.0x1.0",
+                "IsShoe=1.0x1.0",
+                "IsBurnable=1.0x1.0",
+                "IsFlexible=1.0x1.0",
+                "IsTempInsulator=1.0x1.0",
+                "IsSolid=1.0x1.0",
+                "IsPocketable=1.0x1.0",
+                "StatMass=1.0x4.0",
+                "StatBasePrice=1.0x200.0",
+                "StatDamageMax=1.0x5",
+                "StatArmorBlunt=1.0x0.3",
+                "StatArmorCut=1.0x0.4",
+                "IsCategoryTextiles=1.0x1"
+            ],
+            "mapCondTolerance": [],
+            "mapPoints": [],
+            "mapChargeProfiles": [
+                "Melee",
+                "MeleeAttackDefault"
+            ],
+            "aUpdateCommands": [
+                "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+            ],
+            "mapGUIPropMaps": null,
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerBootKompart_S01_B02_C01_L",
+            "strAudioEmitter": "ItmShoeSound",
+            "mapSlotEffects": [
+                "bootL_out",
+                "BodySpaceTruckerBootKompart_L",
+                "bootR_out",
+                "BodySpaceTruckerBootKompart_RWrong",
+                "heldL",
+                "HeldItmDefaultL",
+                "heldR",
+                "HeldItmDefaultR"
+            ],
+            "jsonPI": null
+        },
+        {
+            "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+            "strNameShort": "Boot R",
+            "strItemDef": "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+            "strDesc": "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
+            "strNameFriendly": "Boot: Black Wing \"Carbide Capped\" (Right)",
+            "strType": "Item",
+            "strLoot": null,
+            "nStackLimit": 1,
+            "aInteractions": [
+                "EquipItem",
+                "DropItem",
+                "PickupItem"
+            ],
+            "aStartingConds": [
+                "IsBlackWing=1.0x1.0",
+                "IsShoe=1.0x1.0",
+                "IsBurnable=1.0x1.0",
+                "IsFlexible=1.0x1.0",
+                "IsTempInsulator=1.0x1.0",
+                "IsSolid=1.0x1.0",
+                "IsPocketable=1.0x1.0",
+                "StatMass=1.0x4.0",
+                "StatBasePrice=1.0x200.0",
+                "StatDamageMax=1.0x5",
+                "StatArmorBlunt=1.0x0.3",
+                "StatArmorCut=1.0x0.4",
+                "IsCategoryTextiles=1.0x1"
+            ],
+            "mapCondTolerance": [],
+            "mapPoints": [],
+            "mapChargeProfiles": [
+                "Melee",
+                "MeleeAttackDefault"
+            ],
+            "aUpdateCommands": [
+                "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+            ],
+            "mapGUIPropMaps": null,
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerBootKompart_S01_B02_C01_R",
+            "strAudioEmitter": "ItmShoeSound",
+            "mapSlotEffects": [
+                "bootR_out",
+                "BodySpaceTruckerBootKompart_R",
+                "bootL_out",
+                "BodySpaceTruckerBootKompart_LWrong",
+                "heldL",
+                "HeldItmDefaultL",
+                "heldR",
+                "HeldItmDefaultR"
+            ],
+            "jsonPI": null
+        }
+    ],
+    slots: [
+        {
+            "strName": "bootL_out",
+            "strNameFriendly": "Left Boot",
+            "strHitboxImage": "paperdoll/HBbootL",
+            "strIconImage": "paperdoll/HBbootLIcon",
+            "nItems": 1,
+            "nDepth": 6,
+            "fAlignX": 0.0,
+            "fAlignY": 0.0,
+            "bAlignSlot": false,
+            "bHoldSlot": false,
+            "bHide": false,
+            "bCarried": true,
+            "bAllowStacks": false
+        },
+        {
+            "strName": "bootR_out",
+            "strNameFriendly": "Right Boot",
+            "strHitboxImage": "paperdoll/HBbootR",
+            "strIconImage": "paperdoll/HBbootRIcon",
+            "nItems": 1,
+            "nDepth": 6,
+            "fAlignX": 0.0,
+            "fAlignY": 0.0,
+            "bAlignSlot": false,
+            "bHoldSlot": false,
+            "bHide": false,
+            "bCarried": true,
+            "bAllowStacks": false
+        }
+    ],
+    slot_effects: [
+        {
+            "strName": "BodySpaceTruckerBootKompart_L",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
+            "strSlotImageUnder": null,
+            "strIASlot": null,
+            "strIAUnslot": null,
+            "strIASlotParents": "SLOT_SpaceTruckerBootKompart",
+            "strIAUnslotParents": "UNSLOT_SpaceTruckerBootKompart",
+            "aSlotsSecondary": [
+                "shoeL"
+            ],
+            "mapMeshTextures": [
+                "EVA",
+                "MeshTex_EVA_Boot_C01_L:MeshTex_EVA_Boot_L_n"
+            ]
+        },
+        {
+            "strName": "BodySpaceTruckerBootKompart_LWrong",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
+            "strSlotImageUnder": null,
+            "strIASlot": null,
+            "strIAUnslot": null,
+            "strIASlotParents": "SLOT_SpaceTruckerBootKompartWrong",
+            "strIAUnslotParents": "UNSLOT_SpaceTruckerBootKompartWrong",
+            "aSlotsSecondary": [
+                "shoeL"
+            ],
+            "mapMeshTextures": [
+                "EVA",
+                "MeshTex_EVA_Boot_C01_L:MeshTex_EVA_Boot_L_n"
+            ]
+        },
+        {
+            "strName": "BodySpaceTruckerBootKompart_R",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
+            "strSlotImageUnder": null,
+            "strIASlot": null,
+            "strIAUnslot": null,
+            "strIASlotParents": "SLOT_SpaceTruckerBootKompart",
+            "strIAUnslotParents": "UNSLOT_SpaceTruckerBootKompart",
+            "aSlotsSecondary": [
+                "shoeR"
+            ],
+            "bMirror": true,
+            "mapMeshTextures": [
+                "EVA",
+                "MeshTex_EVA_Boot_C01_R:MeshTex_EVA_Boot_R_n"
+            ]
+        },
+        {
+            "strName": "BodySpaceTruckerBootKompart_RWrong",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
+            "strSlotImageUnder": null,
+            "strIASlot": null,
+            "strIAUnslot": null,
+            "strIASlotParents": "SLOT_SpaceTruckerBootKompartWrong",
+            "strIAUnslotParents": "UNSLOT_SpaceTruckerBootKompartWrong",
+            "aSlotsSecondary": [
+                "shoeR"
+            ],
+            "bMirror": true,
+            "mapMeshTextures": [
+                "EVA",
+                "MeshTex_EVA_Boot_C01_R:MeshTex_EVA_Boot_R_n"
+            ]
+        }
+    ],
+    interactions: [
+        {
+            "strName": "SLOT_SpaceTruckerBootKompart",
+            "strTitle": "Wear",
+            "strDesc": "[us] puts on [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 0,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": "COND_SpaceTruckerBootKompart_Apply",
+            "CTTestUs": null,
+            "CTTestThem": null,
+            "aLootItms": []
+        },
+        {
+            "strName": "UNSLOT_SpaceTruckerBootKompart",
+            "strDesc": "[us] is unslotted from [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 0,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": "COND_SpaceTruckerBootKompart_Remove",
+            "CTTestUs": null,
+            "CTTestThem": null,
+            "aLootItms": []
+        },
+        {
+            "strName": "SLOT_SpaceTruckerBootKompartWrong",
+            "strDesc": "[us] is slotted on [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 0,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": "COND_SpaceTruckerBootKompartWrong_Apply",
+            "CTTestUs": null,
+            "CTTestThem": "TIsHuman",
+            "aLootItms": []
+        },
+        {
+            "strName": "UNSLOT_SpaceTruckerBootKompartWrong",
+            "strDesc": "[us] is unslotted from [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 0,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": "COND_SpaceTruckerBootKompartWrong_Remove",
+            "CTTestUs": null,
+            "CTTestThem": "TIsHuman",
+            "aLootItms": []
+        }
+    ],
+    items: [
+        {
+            "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+            "strImg": "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+            "strImgNorm": "ItmSpaceTruckerBootKompart_L_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+            "strImg": "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+            "strImgNorm": "ItmSpaceTruckerBootKompart_R_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        }
+    ],
+    loot: [
+        {
+            "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+            "aCOs": [
+                "ItmSpaceTruckerBootKompart_S01_B02_C01_L=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "item"
+        },
+        {
+            "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+            "aCOs": [
+                "ItmSpaceTruckerBootKompart_S01_B02_C01_R=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "item"
+        },
+        {
+            "strName": "ItmSpaceTruckerBootKompart",
+            "aCOs": [
+                "ItmSpaceTruckerBootKompart_S01_B02_C01_L=1.0x1",
+                "ItmSpaceTruckerBootKompart_S01_B02_C01_R=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "item"
+        },
+        {
+            "strName": "COND_SpaceTruckerBootKompart_Apply",
+            "aCOs": [
+                "StatBodyInsulation=1.0x0.2",
+                "StatThreat=1.0x6",
+                "-IsBarefoot=1.0x2",
+                "-StatSafeTempMin=1.0x0.5",
+                "StatMovSpeedPenalty=1.0x0.05",
+                "ThreshStatGrav=1.0x0.1",
+                "-ThreshStatEncumbrance=1.0x0.1",
+                "ThreshStatSecurity=1.0x0.2",
+                "ThreshStatEsteem=1.0x0.3"
+            ],
+            "aLoots": [],
+            "strType": "condition"
+        },
+        {
+            "strName": "COND_SpaceTruckerBootKompart_Remove",
+            "aCOs": [
+                "-StatBodyInsulation=1.0x0.2",
+                "-StatThreat=1.0x6",
+                "IsBarefoot=1.0x2",
+                "StatSafeTempMin=1.0x0.5",
+                "-StatMovSpeedPenalty=1.0x0.05",
+                "-ThreshStatGrav=1.0x0.1",
+                "ThreshStatEncumbrance=1.0x0.1",
+                "-ThreshStatSecurity=1.0x0.2",
+                "-ThreshStatEsteem=1.0x0.3"
+            ],
+            "aLoots": [],
+            "strType": "condition"
+        },
+        {
+            "strName": "COND_SpaceTruckerBootKompartWrong_Apply",
+            "aCOs": [
+                "StatBodyInsulation=1.0x0.2",
+                "-StatThreat=1.0x6",
+                "-IsBarefoot=1.0x2",
+                "IsImproperFootwear=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "condition"
+        },
+        {
+            "strName": "COND_SpaceTruckerBootKompartWrong_Remove",
+            "aCOs": [
+                "-StatBodyInsulation=1.0x0.2",
+                "StatThreat=1.0x6",
+                "IsBarefoot=1.0x2",
+                "-IsImproperFootwear=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "condition"
+        }
+    ]
+}

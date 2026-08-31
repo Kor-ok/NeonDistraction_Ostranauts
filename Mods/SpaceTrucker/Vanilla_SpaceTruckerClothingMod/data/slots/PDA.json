@@ -1,0 +1,16 @@
+[
+    {
+    "strName" : "pdaCardsNASA",
+    "strNameFriendly" : "Expansion Slots",
+    "strHitboxImage" : "blank",
+    "nItems" : 3,
+    "nDepth" : 5,
+    "fAlignX" : 0.0,
+    "fAlignY" : 0.0,
+    "bAlignSlot" : false,
+    "bHoldSlot" : false,
+    "bHide" : false,
+    "bCarried" : true,
+    "bAllowStacks" : false
+  }
+]

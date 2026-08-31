@@ -1,87 +1,102 @@
 [
     {
-        "strName" : "ItmSpaceTruckerLanyard_S01_B00_C02",
-        "strNameFriendly" : "Lanyard: Clippable (holding Permit)",
-        "strDesc" : "A clippable lanyard for holding permits.",
-        "strImg"  : "ItmSpaceTruckerLanyard_S01_B00_C02",
-        "strImgNorm"  : "ItmSpaceTruckerLanyard_n",
-        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C02",
-        "strCOBase"    : "ItmSpaceTruckerLanyard_S01_B00_C01",
-        "strCondLoot"    : "ItmSpaceTruckerLanyard_S01_B00_C02",
-        "mapModeSwitches "  : [
-            "ItmSpaceTruckerLanyard_S01_B00_C01","BodySpaceTruckerLanyard_S01_B00_C01",
-            "ItmSpaceTruckerLanyard_S01_B00_C02","BodySpaceTruckerLanyard_S01_B00_C02"
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C02",
+        "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+        "strDesc": "A clippable lanyard for holding permits.",
+        "strImg": "ItmSpaceTruckerLanyard_S01_B00_C02",
+        "strImgNorm": "ItmSpaceTruckerLanyard_n",
+        "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C02",
+        "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C02",
+        "mapModeSwitches ": [
+            "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "BodySpaceTruckerLanyard_S01_B00_C01",
+            "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "BodySpaceTruckerLanyard_S01_B00_C02"
         ],
-        "mapSlotEffects" : [
-            "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C02"
+        "mapSlotEffects": [
+            "hip_clip",
+            "BodySpaceTruckerLanyard_S01_B00_C02"
         ]
     },
     {
-        "strName" : "ItmSpaceTruckerLanyard_S01_B00_C03",
-        "strNameFriendly" : "Lanyard: Clippable (holding Permit)",
-        "strDesc" : "A clippable lanyard for holding permits.",
-        "strImg"  : "ItmSpaceTruckerLanyard_S01_B00_C03",
-        "strImgNorm"  : "ItmSpaceTruckerLanyard_n",
-        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C03",
-        "strCOBase"    : "ItmSpaceTruckerLanyard_S01_B00_C01",
-        "strCondLoot"    : "ItmSpaceTruckerLanyard_S01_B00_C03",
-        "mapModeSwitches "  : [
-            "ItmSpaceTruckerLanyard_S01_B00_C01","BodySpaceTruckerLanyard_S01_B00_C01",
-            "ItmSpaceTruckerLanyard_S01_B00_C03","BodySpaceTruckerLanyard_S01_B00_C03"
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C03",
+        "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+        "strDesc": "A clippable lanyard for holding permits.",
+        "strImg": "ItmSpaceTruckerLanyard_S01_B00_C03",
+        "strImgNorm": "ItmSpaceTruckerLanyard_n",
+        "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C03",
+        "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C03",
+        "mapModeSwitches ": [
+            "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "BodySpaceTruckerLanyard_S01_B00_C01",
+            "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "BodySpaceTruckerLanyard_S01_B00_C03"
         ],
-        "mapSlotEffects" : [
-            "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C03"
+        "mapSlotEffects": [
+            "hip_clip",
+            "BodySpaceTruckerLanyard_S01_B00_C03"
         ]
     },
     {
-        "strName" : "ItmSpaceTruckerLanyard_S01_B00_C04",
-        "strNameFriendly" : "Lanyard: Clippable (holding Permit)",
-        "strDesc" : "A clippable lanyard for holding permits.",
-        "strImg"  : "ItmSpaceTruckerLanyard_S01_B00_C04",
-        "strImgNorm"  : "ItmSpaceTruckerLanyard_n",
-        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C04",
-        "strCOBase"    : "ItmSpaceTruckerLanyard_S01_B00_C01",
-        "strCondLoot"    : "ItmSpaceTruckerLanyard_S01_B00_C04",
-        "mapModeSwitches "  : [
-            "ItmSpaceTruckerLanyard_S01_B00_C01","BodySpaceTruckerLanyard_S01_B00_C01",
-            "ItmSpaceTruckerLanyard_S01_B00_C04","BodySpaceTruckerLanyard_S01_B00_C04"
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C04",
+        "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+        "strDesc": "A clippable lanyard for holding permits.",
+        "strImg": "ItmSpaceTruckerLanyard_S01_B00_C04",
+        "strImgNorm": "ItmSpaceTruckerLanyard_n",
+        "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C04",
+        "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C04",
+        "mapModeSwitches ": [
+            "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "BodySpaceTruckerLanyard_S01_B00_C01",
+            "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "BodySpaceTruckerLanyard_S01_B00_C04"
         ],
-        "mapSlotEffects" : [
-            "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C04"
+        "mapSlotEffects": [
+            "hip_clip",
+            "BodySpaceTruckerLanyard_S01_B00_C04"
         ]
     },
     {
-        "strName" : "ItmSpaceTruckerLanyard_S01_B00_C05",
-        "strNameFriendly" : "Lanyard: Clippable (holding Permit)",
-        "strDesc" : "A clippable lanyard for holding permits.",
-        "strImg"  : "ItmSpaceTruckerLanyard_S01_B00_C05",
-        "strImgNorm"  : "ItmSpaceTruckerLanyard_n",
-        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C05",
-        "strCOBase"    : "ItmSpaceTruckerLanyard_S01_B00_C01",
-        "strCondLoot"    : "ItmSpaceTruckerLanyard_S01_B00_C05",
-        "mapModeSwitches "  : [
-            "ItmSpaceTruckerLanyard_S01_B00_C01","BodySpaceTruckerLanyard_S01_B00_C01",
-            "ItmSpaceTruckerLanyard_S01_B00_C05","BodySpaceTruckerLanyard_S01_B00_C05"
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C05",
+        "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+        "strDesc": "A clippable lanyard for holding permits.",
+        "strImg": "ItmSpaceTruckerLanyard_S01_B00_C05",
+        "strImgNorm": "ItmSpaceTruckerLanyard_n",
+        "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C05",
+        "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C05",
+        "mapModeSwitches ": [
+            "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "BodySpaceTruckerLanyard_S01_B00_C01",
+            "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "BodySpaceTruckerLanyard_S01_B00_C05"
         ],
-        "mapSlotEffects" : [
-            "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C05"
+        "mapSlotEffects": [
+            "hip_clip",
+            "BodySpaceTruckerLanyard_S01_B00_C05"
         ]
     },
     {
-        "strName" : "ItmSpaceTruckerLanyard_S01_B00_C06",
-        "strNameFriendly" : "Lanyard: Clippable (holding Permit)",
-        "strDesc" : "A clippable lanyard for holding permits.",
-        "strImg"  : "ItmSpaceTruckerLanyard_S01_B00_C06",
-        "strImgNorm"  : "ItmSpaceTruckerLanyard_n",
-        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C06",
-        "strCOBase"    : "ItmSpaceTruckerLanyard_S01_B00_C01",
-        "strCondLoot"    : "ItmSpaceTruckerLanyard_S01_B00_C06",
-        "mapModeSwitches "  : [
-            "ItmSpaceTruckerLanyard_S01_B00_C01","BodySpaceTruckerLanyard_S01_B00_C01",
-            "ItmSpaceTruckerLanyard_S01_B00_C06","BodySpaceTruckerLanyard_S01_B00_C06"
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C06",
+        "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+        "strDesc": "A clippable lanyard for holding permits.",
+        "strImg": "ItmSpaceTruckerLanyard_S01_B00_C06",
+        "strImgNorm": "ItmSpaceTruckerLanyard_n",
+        "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C06",
+        "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C06",
+        "mapModeSwitches ": [
+            "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "BodySpaceTruckerLanyard_S01_B00_C01",
+            "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "BodySpaceTruckerLanyard_S01_B00_C06"
         ],
-        "mapSlotEffects" : [
-            "hip_clip", "BodySpaceTruckerLanyard_S01_B00_C06"
+        "mapSlotEffects": [
+            "hip_clip",
+            "BodySpaceTruckerLanyard_S01_B00_C06"
         ]
     }
 ]

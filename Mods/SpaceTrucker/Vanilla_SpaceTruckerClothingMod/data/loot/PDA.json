@@ -2,7 +2,9 @@
     {
     "strName" : "ItmSpaceTruckerEinkPDANewPlayer",
     "aCOs"    : [
-      "ItmSpaceTruckerEinkPDA_S01_B00_C01=1x1"
+      "ItmSpaceTruckerEinkPDA_S01_B00_C01=1x1",
+      "DataVID_EPCT=1.0x1"
+
     ],
     "aLoots"  : [
       "ItmRandomPDACartNewPlayer=1x1"

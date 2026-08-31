@@ -1,0 +1,8 @@
+[
+    {
+        "strName" : "DataVID_EPCT",
+        "strNameFriendly" : "PROJ_DIONE_EPCT_HH.VID",
+        "strCOBase"    : "DataFile",
+        "strCondLoot"    : "CNDOLDatafileVID"
+    }
+]

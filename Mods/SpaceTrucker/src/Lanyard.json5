@@ -1,0 +1,618 @@
+{
+    Asset: "Lanyard",
+    Overwrites: [
+        "Permit_OVERWRITE.json" // file:///./../Vanilla_SpaceTruckerClothingMod/data/condowners/Permit_OVERWRITE.json
+    ],
+    condtrigs: [
+        {
+            "strName": "TIsFitContainerPermit",
+            "strCondName": "",
+            "fChance": 1.0,
+            "fCount": 1.0,
+            "aReqs": [
+                "IsPermitOKLGSalvage"
+            ],
+            "aForbids": [],
+            "aTriggers": [
+                "TIsFitContainerSolid"
+            ],
+            "bAND": true
+        }
+    ],
+    condowners: [
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strNameShort": "Lanyard",
+            "strNameFriendly": "Lanyard: Clippable",
+            "strDesc": "A clippable lanyard for holding permits.",
+            "strItemDef": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strType": "Item",
+            "strLoot": "ItmPocketsLanyard01", // 
+            "strContainerCT": "TIsFitContainerPermit",
+            "nContainerHeight": 1,
+            "nContainerWidth": 1,
+            "mapAltItemDefs": [
+                "IsEmpty",
+                "ItmSpaceTruckerLanyard_S01_B00_C01",
+                "IsYellow",
+                "ItmSpaceTruckerLanyard_S01_B00_C02",
+                "IsRed",
+                "ItmSpaceTruckerLanyard_S01_B00_C03",
+                "IsBlue",
+                "ItmSpaceTruckerLanyard_S01_B00_C04",
+                "IsGray",
+                "ItmSpaceTruckerLanyard_S01_B00_C05",
+                "IsBlack",
+                "ItmSpaceTruckerLanyard_S01_B00_C06"
+            ],
+            "aInteractions": [
+                "Inventory",
+                "EquipItem",
+                "DropItem",
+                "PickupItem"
+            ],
+            "aStartingConds": [
+                "IsContainer=1.0x1",
+                "IsSolid=1.0x1.0",
+                "StatMass=1.0x0.01",
+                "StatBasePrice=1.0x254.0",
+                "StatDamageMax=1.0x4",
+                "IsEmpty=1.0x1"
+            ],
+            "mapCondTolerance": [],
+            "mapPoints": [],
+            "aSlotsWeHave": [
+                "pocket_Permit01"
+            ],
+            "dictSlotsLayout": {
+                "pocket_Permit01": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "mapChargeProfiles": [
+                "Melee",
+                "MeleeAttackDefault"
+            ],
+            "aUpdateCommands": [
+                "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+            ],
+            "mapGUIPropMaps": null,
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C01",
+            "strAudioEmitter": "ItmManualSound",
+            "mapSlotEffects": [
+                "hip_clip",
+                "BodySpaceTruckerLanyard_S01_B00_C01"
+            ],
+            "mapAltSlotImgs": [
+                "ItmSpaceTruckerLanyard_S01_B00_C02",
+                "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C02",
+                "ItmSpaceTruckerLanyard_S01_B00_C03",
+                "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C03",
+                "ItmSpaceTruckerLanyard_S01_B00_C04",
+                "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C04",
+                "ItmSpaceTruckerLanyard_S01_B00_C05",
+                "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C05",
+                "ItmSpaceTruckerLanyard_S01_B00_C06",
+                "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C06"
+            ],
+            "jsonPI": null
+        },
+        {
+            // Compartments
+            "strName": "PocketPermit01",
+            "strNameShort": "Permit Compartment",
+            "strItemDef": "Blank",
+            "strDesc": "A permit compartment for a lanyard.",
+            "strNameFriendly": "Lanyard permit compartment",
+            "strType": "Item",
+            "strLoot": null,
+            "nStackLimit": 1,
+            "aInteractions": [],
+            "aStartingConds": [
+                "IsContainer=1.0x1",
+                "IsSystem=1.0x1"
+            ],
+            "bSlotLocked": true,
+            "strContainerCT": "TIsFitContainerPermit",
+            "nContainerHeight": 1,
+            "nContainerWidth": 1,
+            "mapPoints": [],
+            "mapGUIPropMaps": null,
+            "strPortraitImg": "blank",
+            "strAudioEmitter": "ItmManualSound",
+            "mapSlotEffects": [
+                "pocket_Permit01",
+                "PocketPermit"
+            ],
+            "jsonPI": null
+        }
+    ],
+    slots: [
+        {
+            "strName": "pocket_Permit01",
+            "strNameFriendly": "Permit Compartment",
+            "strHitboxImage": "blank",
+            "nItems": 1,
+            "nDepth": 15,
+            "fAlignX": 0.0,
+            "fAlignY": 0.0,
+            "bAlignSlot": false,
+            "bHoldSlot": false,
+            "bHide": true,
+            "bCarried": true,
+            "bAllowStacks": false
+        },
+        {
+            "strName": "hip_clip",
+            "strNameFriendly": "Hip Clip Points",
+            "strHitboxImage": "paperdoll/HBabdomenLower",
+            "strIconImage": "paperdoll/HBabdomenLowerIcon",
+            "nItems": 1,
+            "nDepth": 16,
+            "fAlignX": 0.0,
+            "fAlignY": 0.0,
+            "bAlignSlot": false,
+            "bHoldSlot": false,
+            "bHide": false,
+            "bCarried": true,
+            "bAllowStacks": false
+        }
+    ],
+    cooverlays: [
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+            "strDesc": "A clippable lanyard for holding permits.",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C02",
+            "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "mapModeSwitches ": [
+                "ItmSpaceTruckerLanyard_S01_B00_C01",
+                "BodySpaceTruckerLanyard_S01_B00_C01",
+                "ItmSpaceTruckerLanyard_S01_B00_C02",
+                "BodySpaceTruckerLanyard_S01_B00_C02"
+            ],
+            "mapSlotEffects": [
+                "hip_clip",
+                "BodySpaceTruckerLanyard_S01_B00_C02"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+            "strDesc": "A clippable lanyard for holding permits.",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C03",
+            "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "mapModeSwitches ": [
+                "ItmSpaceTruckerLanyard_S01_B00_C01",
+                "BodySpaceTruckerLanyard_S01_B00_C01",
+                "ItmSpaceTruckerLanyard_S01_B00_C03",
+                "BodySpaceTruckerLanyard_S01_B00_C03"
+            ],
+            "mapSlotEffects": [
+                "hip_clip",
+                "BodySpaceTruckerLanyard_S01_B00_C03"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+            "strDesc": "A clippable lanyard for holding permits.",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C04",
+            "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "mapModeSwitches ": [
+                "ItmSpaceTruckerLanyard_S01_B00_C01",
+                "BodySpaceTruckerLanyard_S01_B00_C01",
+                "ItmSpaceTruckerLanyard_S01_B00_C04",
+                "BodySpaceTruckerLanyard_S01_B00_C04"
+            ],
+            "mapSlotEffects": [
+                "hip_clip",
+                "BodySpaceTruckerLanyard_S01_B00_C04"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+            "strDesc": "A clippable lanyard for holding permits.",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C05",
+            "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "mapModeSwitches ": [
+                "ItmSpaceTruckerLanyard_S01_B00_C01",
+                "BodySpaceTruckerLanyard_S01_B00_C01",
+                "ItmSpaceTruckerLanyard_S01_B00_C05",
+                "BodySpaceTruckerLanyard_S01_B00_C05"
+            ],
+            "mapSlotEffects": [
+                "hip_clip",
+                "BodySpaceTruckerLanyard_S01_B00_C05"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "strNameFriendly": "Lanyard: Clippable (holding Permit)",
+            "strDesc": "A clippable lanyard for holding permits.",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strPortraitImg": "paperdoll/clothing/portSpaceTruckerLanyard_S01_B00_C06",
+            "strCOBase": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strCondLoot": "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "mapModeSwitches ": [
+                "ItmSpaceTruckerLanyard_S01_B00_C01",
+                "BodySpaceTruckerLanyard_S01_B00_C01",
+                "ItmSpaceTruckerLanyard_S01_B00_C06",
+                "BodySpaceTruckerLanyard_S01_B00_C06"
+            ],
+            "mapSlotEffects": [
+                "hip_clip",
+                "BodySpaceTruckerLanyard_S01_B00_C06"
+            ]
+        }
+    ],
+    slot_effects: [
+        {
+            "strName": "BodySpaceTruckerLanyard_S01_B00_C01",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C01",
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_SpaceTruckerLanyard",
+            "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        },
+        {
+            "strName": "BodySpaceTruckerLanyard_S01_B00_C02",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C02",
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_SpaceTruckerLanyard",
+            "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        },
+        {
+            "strName": "BodySpaceTruckerLanyard_S01_B00_C03",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C03",
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_SpaceTruckerLanyard",
+            "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        },
+        {
+            "strName": "BodySpaceTruckerLanyard_S01_B00_C04",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C04",
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_SpaceTruckerLanyard",
+            "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        },
+        {
+            "strName": "BodySpaceTruckerLanyard_S01_B00_C05",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C05",
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_SpaceTruckerLanyard",
+            "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        },
+        {
+            "strName": "BodySpaceTruckerLanyard_S01_B00_C06",
+            "strSlotImage": "paperdoll/clothing/bodySpaceTruckerLanyard_S01_B00_C06",
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_SpaceTruckerLanyard",
+            "strIAUnslot": "UNSLOT_SpaceTruckerLanyard",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        },
+        {
+            "strName": "PocketPermit",
+            "strSlotImage": null,
+            "strSlotImageUnder": null,
+            "strIASlot": "SLOT_PocketPermit",
+            "strIAUnslot": "UNSLOT_PocketPermit",
+            "strIASlotParents": null,
+            "strIAUnslotParents": null,
+            "mapMeshTextures": []
+        }
+    ],
+    interactions: [
+        {
+            "strName": "SLOT_SpaceTruckerLanyard",
+            "strTitle": "Wear the lanyard",
+            "strDesc": "[us] puts on [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 0,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": null,
+            "CTTestUs": null,
+            "CTTestThem": null,
+            "aLootItms": []
+        },
+        {
+            "strName": "UNSLOT_SpaceTruckerLanyard",
+            "strDesc": "[us] removes the lanyard from [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 0,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": null,
+            "CTTestUs": null,
+            "CTTestThem": null,
+            "aLootItms": []
+        },
+        {
+            "strName": "SLOT_PocketPermit",
+            "strTitle": "Insert permit",
+            "strDesc": "[us] puts on [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 1,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": null,
+            "CTTestUs": null,
+            "CTTestThem": null,
+            "aLootItms": []
+        },
+        {
+            "strName": "UNSLOT_PocketPermit",
+            "strTitle": "Extract permit",
+            "strDesc": "[us] puts on [them].",
+            "aInverse": [],
+            "strThemType": "Other",
+            "nLogging": 1,
+            "bOpener": true,
+            "LootCondsUs": null,
+            "LootCondsThem": null,
+            "CTTestUs": null,
+            "CTTestThem": null,
+            "aLootItms": []
+        }
+    ],
+    items: [
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C02",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C03",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C04",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C05",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        },
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "strImg": "ItmSpaceTruckerLanyard_S01_B00_C06",
+            "strImgNorm": "ItmSpaceTruckerLanyard_n",
+            "strImgDamaged": "",
+            "strDmgColor": "DamageTintDefault",
+            "fZScale": 0.2,
+            "nCols": 1,
+            "aSocketAdds": [
+                "TILItemAdds"
+            ],
+            "aSocketForbids": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "TILItemForbids",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ],
+            "aSocketReqs": [
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank",
+                "Blank"
+            ]
+        }
+    ],
+    loot: [
+        {
+            "strName": "ItmSpaceTruckerLanyard_S01_B00_C01",
+            "aCOs": [
+                "ItmSpaceTruckerLanyard_S01_B00_C01=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "item"
+        },
+        {
+            "strName": "ItmPocketsLanyard01",
+            "aCOs": [
+                "PocketPermit01=1x1"
+            ],
+            "aLoots": [],
+            "strType": "item"
+        }
+    ]
+}
