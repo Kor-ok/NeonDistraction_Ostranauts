@@ -1,4 +1,4 @@
-# Space Trucker Clothing Mod v1.13
+# Space Trucker Clothing Mod v1.13.01
 **Clothing Assets that mimic the concept art [Space Trucker by Charlie Martin](https://ostranauts.wiki.gg/index.php?curid=4382").**
 ![Space Trucker](readme_assets/640px-Space_Trucker_1440.png)
 
@@ -9,20 +9,13 @@
 > Known Issues:
 >+ Boots/Socks layering can get pushed around via other mods
 >   + *Will look into solutions*
->+ IsBarefoot still remains after wearing the boots
->   + *Not yet certain why but I did see related base game issues*
->+ Lanyard appearance currently does not change with Permit
->   + *Will look into solutions*
->+ Crew2 Body Slots overwritten.
+>+ Crew2 Body Slots and OKLG Permit COs overwritten.
 >   + *Will cause issues when the game updates this entry*
 
 ## Spawn All Items
 
 ```text
 spawn AllSpaceTruckerItems
-```
-```text
-spawn AllSpaceTruckerLanyards
 ```
 > [!NOTE]
 > Stats are subject to change
