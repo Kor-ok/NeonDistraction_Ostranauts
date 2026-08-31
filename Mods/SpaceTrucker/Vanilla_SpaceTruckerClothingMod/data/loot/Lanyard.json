@@ -1,16 +1,18 @@
 [
-  {
-    "strName": "ItmSpaceTruckerLanyard_S01_B00_C01",
-    "aCOs": ["ItmSpaceTruckerLanyard_S01_B00_C01=1.0x1"],
-    "aLoots": [],
-    "strType": "item"
-  },
-  {
-    "strName": "ItmPocketsLanyard01",
-    "aCOs": [
-      "PocketPermit01=1x1"
-    ],
-    "aLoots": [],
-    "strType": "item"
-  }
+    {
+        "strName": "ItmSpaceTruckerLanyard_S01_B00_C01",
+        "aCOs": [
+            "ItmSpaceTruckerLanyard_S01_B00_C01=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "ItmPocketsLanyard01",
+        "aCOs": [
+            "PocketPermit01=1x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    }
 ]
