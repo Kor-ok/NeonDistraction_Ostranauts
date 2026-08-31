@@ -2,7 +2,7 @@
 {
     "strName" : "BodySpaceTruckerCamisoleWeber_Small",
     "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerCamisoleWeber_S01_B02_C01",
-    "strSlotImageUnder" : null,
+    "strSlotImageUnder" : "paperdoll/clothing/bodySpaceTruckerCamisoleWeber_S01_B02_C01_dmg",
     "strIASlot" : "SLOTClothesShirt01",
     "strIAUnslot" : "UNSLOTClothesShirt01",
     "strIASlotParents" : null,
