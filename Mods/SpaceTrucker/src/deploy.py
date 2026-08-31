@@ -1,12 +1,28 @@
 from __future__ import annotations
 
-import json  # ensure old JSON for compatibility
+"""Deploy JSON5 source assets into JSON data files for each SpaceTrucker mod.
+
+Run this script from the ``src`` directory. Each valid JSON5 file must declare an
+``Asset`` name and may include one or more supported Ostranauts data-folder keys.
+The script writes each supported section as ``<Asset>.json`` under every sibling
+mod's ``data/<folder>`` directory.
+
+NOTE: JSON5 is used for the master records but will be converted to strict JSON
+for deployment for compatibility.
+"""
+
+import json
 from pathlib import Path
 
-import json5  # using json5 for master source data
+import json5
 
+# Sibling directories that contain source material rather than deployable mod data.
 EXCLUDED_FOLDERS = {"src", "readme_assets"}
 
+"""Valid top-level JSON5 keys that correspond to Ostranauts data directories.
+
+Note that the ``Asset`` key is used to name the output file and is not a 
+mod data folder itself."""
 DATAFOLDERS = [
     "Asset",
     "gasrespires",
@@ -82,13 +98,15 @@ DATAFOLDERS = [
     "explosions",
 ]
 
-# General Helpers
-
 
 def find_json5_files(directory: Path) -> list[Path]:
+    """Return recursively discovered JSON5 source files that pass validation.
+
+    Invalid files are reported to the console and intentionally omitted from the
+    deployment set, allowing the remaining assets to deploy.
+    """
     result: list[Path] = []
 
-    # Include validate_json5_file function here so that only valid JSON5 files are returned
     for file in directory.iterdir():
         if file.is_file() and file.suffix == ".json5":
             if validate_json5_file(file, report=True):
@@ -100,6 +118,7 @@ def find_json5_files(directory: Path) -> list[Path]:
 
 
 def find_mod_folders(directory: Path) -> list[Path]:
+    """Return immediate child directories that receive generated mod data."""
     result: list[Path] = []
 
     for folder in directory.iterdir():
@@ -109,9 +128,8 @@ def find_mod_folders(directory: Path) -> list[Path]:
     return result
 
 
-# Source JSON5 File Helpers
 def validate_json5_file(file_path: Path, report: bool = True) -> bool:
-    # First check for the "Asset" key and that the value is a simple string. Return false early
+    """Validate the required asset identifier and optionally report data sections."""
     with open(file_path, "r", encoding="utf-8") as file:
         data = json5.load(file)
         asset_name = data.get("Asset")
@@ -124,27 +142,30 @@ def validate_json5_file(file_path: Path, report: bool = True) -> bool:
     if report:
         # Report which of the DATAFOLDERS keys are present in the file
         present_keys = [key for key in DATAFOLDERS if key in data]
-        print(f"File {file_path.stem} contains the following DATAFOLDERS keys:")
+        print(
+            f"File {file_path.stem} contains the following DATAFOLDERS keys:"
+        )
         for key in present_keys:
             print(f" - {key}")
 
     return True
 
+
 def get_json5_data(file_path: Path) -> dict:
-    # Read the JSON5 file and return data who's keys match the DataFolders enum values
+    """Load only the supported data-folder sections from a JSON5 source asset."""
     with open(file_path, "r", encoding="utf-8") as file:
         data = json5.load(file)
 
     return {key: value for key, value in data.items() if key in DATAFOLDERS}
 
 
-# Target JSON (OLD for compatibility) File Helpers
 def deploy_to_data_folders(
     json5_files: list[Path], mod_folders: list[Path]
 ) -> None:
-    # For each key in the data except for "Asset" write a JSON(OLD for compatibility) file
-    # with the name that is the value of "Asset" and the extension ".json" in each of the mod
-    # folders +/data/<key>/
+    """Write each source asset section as indented JSON to every target mod.
+
+    Output stays strict JSON rather than JSON5 for compatibility.
+    """
     for file in json5_files:
         data = get_json5_data(file)
         asset_name = data.get("Asset")
@@ -158,18 +179,16 @@ def deploy_to_data_folders(
                 output_folder.mkdir(parents=True, exist_ok=True)
                 output_file = output_folder / f"{asset_name}.json"
                 with open(output_file, "w", encoding="utf-8") as f:
-                    json.dump(
-                        value, f, indent=4
-                    )  # ensure old JSON for compatibility
+                    json.dump(value, f, indent=4)
                 print(f"Wrote {output_file}")
 
 
 def main() -> None:
+    """Discover source assets and sibling mods, then deploy all valid sections."""
     print("\n")
 
     current_directory = Path.cwd()
     mod_folders = find_mod_folders(current_directory.parent)
-    # TEST Mod Folders
     print(f"\nFound {len(mod_folders)} mod folders:")
     for folder in mod_folders:
         print(f" - {folder}")
