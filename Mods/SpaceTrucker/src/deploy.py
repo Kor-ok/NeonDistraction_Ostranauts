@@ -160,15 +160,24 @@ def get_json5_data(file_path: Path) -> dict:
 
 
 def deploy_to_data_folders(
-    json5_files: list[Path], mod_folders: list[Path]
+    json5_files: list[Path],
+    mod_folders: list[Path],
+    asset_names: str | list[str] | None = None,
 ) -> None:
-    """Write each source asset section as indented JSON to every target mod.
+    """Write selected source asset sections as indented JSON to every target mod.
 
+    Optionally pass asset name or list of asset names to restrict deployment.
     Output stays strict JSON rather than JSON5 for compatibility.
     """
+    selected_asset_names = (
+        {asset_names} if isinstance(asset_names, str) else set(asset_names or [])
+    )
+
     for file in json5_files:
         data = get_json5_data(file)
         asset_name = data.get("Asset")
+        if selected_asset_names and asset_name not in selected_asset_names:
+            continue
 
         for key, value in data.items():
             if key == "Asset":
@@ -196,7 +205,7 @@ def main() -> None:
 
     json5_files = find_json5_files(current_directory)
 
-    deploy_to_data_folders(json5_files, mod_folders)
+    deploy_to_data_folders(json5_files, mod_folders, "MagBag")
 
     print("\n")
 
