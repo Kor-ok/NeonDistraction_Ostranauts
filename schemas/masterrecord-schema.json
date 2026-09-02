@@ -1,0 +1,325 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Master Record Schema",
+  "type": "object",
+  "properties": {
+    "Asset": {
+      "type": "string"
+    },
+    "Overwrites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gasrespires": {
+      "type": "array"
+    },
+    "guipropmaps": {
+      "type": "array"
+    },
+    "headlines": {
+      "type": "array"
+    },
+    "homeworlds": {
+      "type": "array"
+    },
+    "info": {
+      "type": "array"
+    },
+    "installables": {
+      "type": "array"
+    },
+    "interaction_overrides": {
+      "type": "array"
+    },
+    "interactions": {
+      "type": "array"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "strName": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "jobitems": {
+      "type": "array"
+    },
+    "jobs": {
+      "type": "array"
+    },
+    "ledgerdefs": {
+      "type": "array"
+    },
+    "lifeevents": {
+      "type": "array"
+    },
+    "lights": {
+      "type": "array"
+    },
+    "loot": {
+      "type": "array"
+    },
+    "manpages": {
+      "type": "array"
+    },
+    "market": {
+      "type": "array"
+    },
+    "music": {
+      "type": "array"
+    },
+    "music_stations": {
+      "type": "array"
+    },
+    "names_first": {
+      "type": "array"
+    },
+    "names_full": {
+      "type": "array"
+    },
+    "names_last": {
+      "type": "array"
+    },
+    "names_robots": {
+      "type": "array"
+    },
+    "names_ship": {
+      "type": "array"
+    },
+    "names_ship_adjectives": {
+      "type": "array"
+    },
+    "names_ship_nouns": {
+      "type": "array"
+    },
+    "parallax": {
+      "type": "array"
+    },
+    "pda_apps": {
+      "type": "array"
+    },
+    "personspecs": {
+      "type": "array"
+    },
+    "pledges": {
+      "type": "array"
+    },
+    "plot_beat_overrides": {
+      "type": "array"
+    },
+    "plot_beats": {
+      "type": "array"
+    },
+    "plot_manager": {
+      "type": "array"
+    },
+    "plots": {
+      "type": "array"
+    },
+    "powerinfos": {
+      "type": "array"
+    },
+    "racing": {
+      "type": "array"
+    },
+    "rooms": {
+      "type": "array"
+    },
+    "schemas": {
+      "type": "array"
+    },
+    "ships": {
+      "type": "array"
+    },
+    "shipspecs": {
+      "type": "array"
+    },
+    "slot_effects": {
+      "type": "array"
+    },
+    "slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "strName": {
+            "type": "string",
+            "description": "Referenced by:\n condowners[].aSlotsWeHave\n condowners[].mapSlotEffects."
+          }
+        }
+      }
+    },
+    "star_systems": {
+      "type": "array"
+    },
+    "strings": {
+      "type": "array"
+    },
+    "tickers": {
+      "type": "array"
+    },
+    "tips": {
+      "type": "array"
+    },
+    "tokens": {
+      "type": "array"
+    },
+    "traitscores": {
+      "type": "array"
+    },
+    "transit": {
+      "type": "array"
+    },
+    "tsv": {
+      "type": "array"
+    },
+    "wounds": {
+      "type": "array"
+    },
+    "zone_triggers": {
+      "type": "array"
+    },
+    "ads": {
+      "type": "array"
+    },
+    "ai_training": {
+      "type": "array"
+    },
+    "archived_content": {
+      "type": "array"
+    },
+    "attackmodes": {
+      "type": "array"
+    },
+    "audioemitters": {
+      "type": "array"
+    },
+    "blueprints": {
+      "type": "array"
+    },
+    "careers": {
+      "type": "array"
+    },
+    "chargeprofiles": {
+      "type": "array"
+    },
+    "colors": {
+      "type": "array"
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "conditions_simple": {
+      "type": "array"
+    },
+    "condtrigs": {
+      "type": "array"
+    },
+    "condowners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "strItemDef": {
+            "type": "string",
+            "description": "Must match an items[].strName value."
+          },
+          "aSlotsWeHave": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Must match a slots[].strName value."
+            }
+          },
+          "strType": {
+            "type": "string",
+            "enum": ["Crew",
+                     "Item",
+                     "Robot01",
+                     "Robot02",
+                     "Ship"]
+          },
+          "strLoot": {
+            "$ref": "enums/condowners-strLoot-options.json",
+            "description": "Must match a loot[].strName value."
+          },
+          "strContainerCT": {
+            "anyOf": [
+              {
+                "$ref": "enums/condowners-strContainerCT-options.json"
+              },
+              {
+                "type": "string"
+              }
+            ],
+            "description": "Must match a condtrigs[].strName value."
+          },
+          "aTickers": {
+            "anyOf": [
+              {
+                "$ref": "enums/condowners-aTickers-options.json"
+              },
+              {
+                "type": "array"
+              }
+            ],
+            "description": "Must match a tickers[].strName value."
+          },
+          "mapAltItemDefs": {
+            "anyOf": [
+              {
+                "$ref": "enums/condowners-mapAltItemDefs-options.json"
+              },
+              {
+                "type": "array"
+              }
+            ],
+            "description": "Must match a items[].strName value."
+          }
+        }
+      }
+    },
+    "condrules": {
+      "type": "array"
+    },
+    "context": {
+      "type": "array"
+    },
+    "cooverlays": {
+      "type": "array"
+    },
+    "crewskins": {
+      "type": "array"
+    },
+    "crime": {
+      "type": "array"
+    },
+    "explosions": {
+      "type": "array"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": ["condowners"],
+        "properties": {
+          "condowners": {
+            "contains": {
+              "type": "object",
+              "required": ["strItemDef"]
+            }
+          }
+        }
+      },
+      "then": {
+        "required": ["items"]
+      }
+    }
+  ]
+}
