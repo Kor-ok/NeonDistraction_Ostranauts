@@ -231,11 +231,15 @@
             "description": "Must match an items[].strName value."
           },
           "aSlotsWeHave": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "description": "Must match a slots[].strName value."
-            }
+            "anyOf": [
+              {
+                "$ref": "enums/condowners-aSlotsWeHave-options.json"
+              },
+              {
+                "type": "array"
+              }
+            ],
+            "description": "Must match a slots[].strName value."
           },
           "strType": {
             "type": "string",
@@ -246,7 +250,14 @@
                      "Ship"]
           },
           "strLoot": {
-            "$ref": "enums/condowners-strLoot-options.json",
+            "anyOf": [
+              {
+                "$ref": "enums/condowners-strLoot-options.json"
+              },
+              {
+                "type": "string"
+              }
+            ],
             "description": "Must match a loot[].strName value."
           },
           "strContainerCT": {
