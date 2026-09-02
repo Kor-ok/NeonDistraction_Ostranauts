@@ -206,7 +206,7 @@ def main() -> None:
     # for key in sorted(unique_keys):
     #     print(key)
 
-    search_key = "mapAltItemDefs"
+    search_key = "mapGUIPropMaps"
     unique_values, unique_types = extract_unique_values_from_specified_key(
         directory_path, search_key, flatten_arrays=True
     )
