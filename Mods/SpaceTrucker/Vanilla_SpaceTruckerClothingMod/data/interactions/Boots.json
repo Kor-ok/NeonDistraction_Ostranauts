@@ -1,59 +1,106 @@
 [
-  {
-    "strName": "SLOT_SpaceTruckerBootKompart",
-    "strTitle": "Wear",
-    "strDesc": "[us] puts on [them].",
-    "aInverse": [],
-    "strThemType": "Other",
-    "nLogging": 0,
-    "bOpener": true,
-    "LootCondsUs": null,
-    "LootCondsThem": "COND_SpaceTruckerBootKompart_Apply",
-    "CTTestUs": null,
-    "CTTestThem": null,
-    "aLootItms": []
-  },
-  {
-    "strName": "UNSLOT_SpaceTruckerBootKompart",
-    "strDesc": "[us] is unslotted from [them].",
-    "aInverse": [],
-    "strThemType": "Other",
-    "nLogging": 0,
-    "bOpener": true,
-    "LootCondsUs": null,
-    "LootCondsThem": "COND_SpaceTruckerBootKompart_Remove",
-    "CTTestUs": null,
-    "CTTestThem": null,
-    "aLootItms": []
-  },
-  {
-    "strName" : "SLOT_SpaceTruckerBootKompartWrong",
-    "strDesc" : "[us] is slotted on [them].",
-    "aInverse"          : [
-    ],
-    "strThemType"       : "Other",
-    "nLogging"         : 0,
-    "bOpener"  :true,
-    "LootCondsUs"         : null,
-    "LootCondsThem"       : "COND_SpaceTruckerBootKompartWrong_Apply",
-    "CTTestUs"          : null,
-    "CTTestThem"        : "TIsHuman",
-    "aLootItms"         : [
-    ]
-  },
-  {
-    "strName" : "UNSLOT_SpaceTruckerBootKompartWrong",
-    "strDesc" : "[us] is unslotted from [them].",
-    "aInverse"          : [
-    ],
-    "strThemType"       : "Other",
-    "nLogging"         : 0,
-    "bOpener"  :true,
-    "LootCondsUs"         : null,
-    "LootCondsThem"       : "COND_SpaceTruckerBootKompartWrong_Remove",
-    "CTTestUs"          : null,
-    "CTTestThem"        : "TIsHuman",
-    "aLootItms"         : [
-    ]
-  }
+    {
+        "strName": "SLOTSTBootL",
+        "strDesc": "[them] puts on [us].",
+        "aInverse": [],
+        "strThemType": "Other",
+        "nLogging": 0,
+        "bOpener": true,
+        "LootCondsUs": null,
+        "LootCondsThem": "CONDSTBootLApply",
+        "CTTestUs": null,
+        "CTTestThem": "TIsHuman",
+        "aLootItms": []
+    },
+    {
+        "strName": "SLOTSTBootR",
+        "strDesc": "[them] puts on [us].",
+        "aInverse": [],
+        "strThemType": "Other",
+        "nLogging": 0,
+        "bOpener": true,
+        "LootCondsUs": null,
+        "LootCondsThem": "CONDSTBootRApply",
+        "CTTestUs": null,
+        "CTTestThem": "TIsHuman",
+        "aLootItms": []
+    },
+    {
+        "strName": "UNSLOTSTBootR",
+        "strDesc": "[them] takes off [us].",
+        "aInverse": [],
+        "strThemType": "Other",
+        "nLogging": 0,
+        "bOpener": true,
+        "LootCondsUs": null,
+        "LootCondsThem": "CONDSTBootRRemove",
+        "CTTestUs": null,
+        "CTTestThem": "TIsHuman",
+        "aLootItms": []
+    },
+    {
+        "strName": "UNSLOTSTBootL",
+        "strDesc": "[them] takes off [us].",
+        "aInverse": [],
+        "strThemType": "Other",
+        "nLogging": 0,
+        "bOpener": true,
+        "LootCondsUs": null,
+        "LootCondsThem": "CONDSTBootLRemove",
+        "CTTestUs": null,
+        "CTTestThem": "TIsHuman",
+        "aLootItms": []
+    },
+    {
+        "strName": "WearItem",
+        "strTitle": "Wear",
+        "strDesc": "[us] [is] going to get [them].",
+        "strTooltip": "Attempt to wear [them].",
+        "strActionGroup": "Use",
+        "strTargetPoint": "use",
+        "fTargetPointRange": 1,
+        "strAnim": "Tooling",
+        "strBubble": "BblCrouch",
+        "aInverse": [
+            "WearItemAllow"
+        ],
+        "fDuration": 5.4e-05,
+        "strThemType": "Other",
+        "strRaiseUI": null,
+        "nLogging": 1,
+        "bOpener": false,
+        "bNoRemember": true,
+        "bIgnoreFeelings": true,
+        "LootCTsUs": null,
+        "LootCTsThem": null,
+        "CTTestUs": null,
+        "CTTestThem": "TIsNotSlottedInstalled",
+        "aLootItms": [],
+        "objLootModeSwitch": null
+    },
+    {
+        "strName": "WearItemAllow",
+        "strTitle": "Wear Item: Done",
+        "strDesc": "[them] wears [us].",
+        "strActionGroup": "Use",
+        "strTargetPoint": null,
+        "fTargetPointRange": 0,
+        "strAnim": null,
+        "strBubble": null,
+        "aInverse": [],
+        "fDuration": 5.4e-05,
+        "strThemType": "Other",
+        "strRaiseUI": null,
+        "nLogging": 1,
+        "LootCTsUs": null,
+        "LootCTsThem": null,
+        "CTTestUs": null,
+        "CTTestThem": null,
+        "bNoRemember": true,
+        "bEquip": true,
+        "aLootItms": [
+            "Give,CT[us],false,false"
+        ],
+        "objLootModeSwitch": null
+    }
 ]

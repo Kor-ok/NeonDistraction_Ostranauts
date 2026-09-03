@@ -1,64 +1,30 @@
 [
-  {
-    "strName" : "BodySpaceTruckerBootKompart_L",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
-    "strSlotImageUnder" : null,
-    "strIASlot" : null,
-    "strIAUnslot" : null,
-    "strIASlotParents" : "SLOT_SpaceTruckerBootKompart",
-    "strIAUnslotParents" : "UNSLOT_SpaceTruckerBootKompart",
-    "aSlotsSecondary" : [
-      "shoeL"
-    ],
-    "mapMeshTextures" : [
-      "EVA","MeshTex_EVA_Boot_C01_L:MeshTex_EVA_Boot_L_n"
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerBootKompart_LWrong",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
-    "strSlotImageUnder" : null,
-    "strIASlot" : null,
-    "strIAUnslot" : null,
-    "strIASlotParents" : "SLOT_SpaceTruckerBootKompartWrong",
-    "strIAUnslotParents" : "UNSLOT_SpaceTruckerBootKompartWrong",
-    "aSlotsSecondary" : [
-      "shoeL"
-    ],
-    "mapMeshTextures" : [
-      "EVA","MeshTex_EVA_Boot_C01_L:MeshTex_EVA_Boot_L_n"
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerBootKompart_R",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
-    "strSlotImageUnder" : null,
-    "strIASlot" : null,
-    "strIAUnslot" : null,
-    "strIASlotParents" : "SLOT_SpaceTruckerBootKompart",
-    "strIAUnslotParents" : "UNSLOT_SpaceTruckerBootKompart",
-    "aSlotsSecondary" : [
-      "shoeR"
-    ],
-    "bMirror" : true,
-    "mapMeshTextures" : [
-      "EVA","MeshTex_EVA_Boot_C01_R:MeshTex_EVA_Boot_R_n"
-    ]
-  },
-  {
-    "strName" : "BodySpaceTruckerBootKompart_RWrong",
-    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerBootKompart_S01_B02_C01_L",
-    "strSlotImageUnder" : null,
-    "strIASlot" : null,
-    "strIAUnslot" : null,
-    "strIASlotParents" : "SLOT_SpaceTruckerBootKompartWrong",
-    "strIAUnslotParents" : "UNSLOT_SpaceTruckerBootKompartWrong",
-    "aSlotsSecondary" : [
-      "shoeR"
-    ],
-    "bMirror" : true,
-    "mapMeshTextures" : [
-      "EVA","MeshTex_EVA_Boot_C01_R:MeshTex_EVA_Boot_R_n"
-    ]
-  }
+    {
+        "strName": "BodySTBootL",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerBootL",
+        "strSlotImageUnder": null,
+        "strIASlot": null,
+        "strIAUnslot": null,
+        "strIASlotParents": "SLOTSTBootL",
+        "strIAUnslotParents": "UNSLOTSTBootL",
+        "aSlotsSecondary": [],
+        "mapMeshTextures": [
+            "EVA",
+            "MeshTex_EVA_Boot_C01_L:MeshTex_EVA_Boot_L_n"
+        ]
+    },
+    {
+        "strName": "BodySTBootR",
+        "strSlotImage": "paperdoll/clothing/bodySpaceTruckerBootR",
+        "strSlotImageUnder": null,
+        "strIASlot": null,
+        "strIAUnslot": null,
+        "strIASlotParents": "SLOTSTBootR",
+        "strIAUnslotParents": "UNSLOTSTBootR",
+        "aSlotsSecondary": [],
+        "mapMeshTextures": [
+            "EVA",
+            "MeshTex_EVA_Boot_C01_R:MeshTex_EVA_Boot_R_n"
+        ]
+    }
 ]
