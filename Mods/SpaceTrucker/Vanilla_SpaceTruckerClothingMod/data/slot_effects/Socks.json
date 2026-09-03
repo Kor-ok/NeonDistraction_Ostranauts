@@ -43,7 +43,6 @@
     "strIAUnslot" : null,
     "strIASlotParents" : "SLOTWieldDefaultSoftR",
     "strIAUnslotParents" : "UNSLOTWieldDefaultSoftR",
-    "bMirror" : true,
     "bWholeBody" : true,
     "mapMeshTextures" : [
     ]

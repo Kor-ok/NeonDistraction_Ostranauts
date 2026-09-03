@@ -4,7 +4,7 @@
         "strNameShort" : "Compression Sock",
         "strNameFriendly": "Left Compression Sock",
         "strType" : "Item",
-        "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_L", // <-- items
+        "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_L",
         "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.",
         "nStackLimit" : 10,
         "aInteractions" : [
@@ -41,7 +41,6 @@
         "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
         "mapSlotEffects" : [
         "sockL_in","BodySpaceTruckerSocksCompression_L",
-        "sockR_in","BodySpaceTruckerSocksCompression_R",
         "heldL","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
         "heldR","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R"
         ]
@@ -51,7 +50,7 @@
         "strNameShort" : "Compression Sock",
         "strNameFriendly": "Right Compression Sock",
         "strType" : "Item",
-        "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_R", // <-- items
+        "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_R",
         "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.",
         "nStackLimit" : 10,
         "aInteractions" : [
@@ -87,7 +86,6 @@
         "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerSocksCompression_S01_B02_C01_R",
         "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
         "mapSlotEffects" : [
-        "sockL_in","BodySpaceTruckerSocksCompression_L",
         "sockR_in","BodySpaceTruckerSocksCompression_R",
         "heldL","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
         "heldR","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R"

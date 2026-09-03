@@ -27,9 +27,8 @@
       "-StatSafeTempMax=1.0x2",
       "-StatSafeTempMin=1.0x3",
       "-StatHygieneRate=1.0x0.1",
-      "IsWearingCompressionSocks=0.5x1",
-      "-IsBarefoot=1.0x1"
-    ],
+      "IsWearingCompressionSocks=0.5x1"
+        ],
     "aLoots": [],
     "strType": "condition"
   },
@@ -40,8 +39,7 @@
       "StatSafeTempMax=1.0x2",
       "StatSafeTempMin=1.0x3",
       "StatHygieneRate=1.0x0.1",
-      "-IsWearingCompressionSocks=0.5x1",
-      "IsBarefoot=1.0x1"
+      "-IsWearingCompressionSocks=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"

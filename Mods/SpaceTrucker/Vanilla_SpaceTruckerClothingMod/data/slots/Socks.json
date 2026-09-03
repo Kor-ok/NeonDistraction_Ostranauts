@@ -12,7 +12,8 @@
     "bHoldSlot": false,
     "bHide": false,
     "bCarried": true,
-    "bAllowStacks": false
+    "bAllowStacks": false,
+    "strCTAutoSlot": null
   },
   {
     "strName": "sockR_in",
@@ -24,9 +25,10 @@
     "fAlignX": 0.0,
     "fAlignY": 0.0,
     "bAlignSlot": false,
-    "bHoldSlot": false,
+    "bHoldSlot": true,
     "bHide": false,
     "bCarried": true,
-    "bAllowStacks": false
+    "bAllowStacks": false,
+    "strCTAutoSlot": null
   }
 ]
