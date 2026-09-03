@@ -205,7 +205,9 @@ def main() -> None:
 
     json5_files = find_json5_files(current_directory)
 
-    deploy_to_data_folders(json5_files, mod_folders, "MagBag")
+    assets_to_deploy = None
+    # assets_to_deploy = ["Boots"]
+    deploy_to_data_folders(json5_files, mod_folders, assets_to_deploy)
 
     print("\n")
 
