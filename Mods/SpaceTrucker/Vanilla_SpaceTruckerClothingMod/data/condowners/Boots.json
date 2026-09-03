@@ -1,7 +1,7 @@
 [
     {
         "strName": "COSpaceTruckerBootL",
-        "strNameShort": "Boot L",
+        "strNameShort": "Boot",
         "strItemDef": "ItmSTBootL",
         "strDesc": "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
         "strNameFriendly": "Boot: Black Wing \"Carbide Capped\" (Left)",
@@ -21,10 +21,10 @@
             "IsTempInsulator=1.0x1",
             "IsSolid=1.0x1",
             "IsPocketable=1.0x1",
-            "StatMass=1.0x4.0",
-            "StatBasePrice=1.0x200.0",
-            "StatDamageMax=1.0x5",
-            "StatArmorBlunt=1.0x0.3",
+            "StatMass=1.0x1.8",
+            "StatBasePrice=1.0x600.0",
+            "StatDamageMax=1.0x16",
+            "StatArmorBlunt=1.0x1.0",
             "StatArmorCut=1.0x0.4",
             "IsCategoryTextiles=1.0x1"
         ],
@@ -52,7 +52,7 @@
     },
     {
         "strName": "COSpaceTruckerBootR",
-        "strNameShort": "Boot R",
+        "strNameShort": "Boot",
         "strItemDef": "ItmSTBootR",
         "strDesc": "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
         "strNameFriendly": "Boot: Black Wing \"Carbide Capped\" (Right)",
@@ -72,10 +72,10 @@
             "IsTempInsulator=1.0x1",
             "IsSolid=1.0x1",
             "IsPocketable=1.0x1",
-            "StatMass=1.0x4.0",
-            "StatBasePrice=1.0x200.0",
-            "StatDamageMax=1.0x5",
-            "StatArmorBlunt=1.0x0.3",
+            "StatMass=1.0x1.8",
+            "StatBasePrice=1.0x600.0",
+            "StatDamageMax=1.0x16",
+            "StatArmorBlunt=1.0x1.0",
             "StatArmorCut=1.0x0.4",
             "IsCategoryTextiles=1.0x1"
         ],
