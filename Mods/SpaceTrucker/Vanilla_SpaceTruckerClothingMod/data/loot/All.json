@@ -2,8 +2,8 @@
     {
         "strName": "AllSpaceTruckerItems",
         "aCOs": [
-            "ItmSpaceTruckerBootKompart_S01_B02_C01_L=1.0x1",
-            "ItmSpaceTruckerBootKompart_S01_B02_C01_R=1.0x1",
+            "COSpaceTruckerBootL=1.0x1",
+            "COSpaceTruckerBootR=1.0x1",
             "ItmSpaceTruckerCamisoleWeber_S01_B02_C01=1.0x1",
             "ItmSpaceTruckerCamisoleWeber_S01_B01_C01=1.0x1",
             "ItmSpaceTruckerHatWarriors_S01_B00_C01=1.0x1",
