@@ -10,7 +10,10 @@
         "LootCondsThem": "CONDSTBootLApply",
         "CTTestUs": null,
         "CTTestThem": "TIsHuman",
-        "aLootItms": []
+        "aLootItms": [],
+        "aAModesAddedThem": [
+            "ACTMeleeKickBootsST;AModeKickBootsST;CTBootedL"
+        ]
     },
     {
         "strName": "SLOTSTBootR",
@@ -23,7 +26,10 @@
         "LootCondsThem": "CONDSTBootRApply",
         "CTTestUs": null,
         "CTTestThem": "TIsHuman",
-        "aLootItms": []
+        "aLootItms": [],
+        "aAModesAddedThem": [
+            "ACTMeleeKickBootsST;AModeKickBootsST;CTBootedR"
+        ]
     },
     {
         "strName": "UNSLOTSTBootR",
@@ -102,5 +108,46 @@
             "Give,CT[us],false,false"
         ],
         "objLootModeSwitch": null
+    },
+    {
+        "strName": "ACTMeleeKickBootsST",
+        "strTitle": "Kicks: ",
+        "strDesc": "[us] kicks at [them].",
+        "strTooltip": "Attempt to strike in melee with a kick for hefty hits.",
+        "strActionGroup": "Fight",
+        "strTargetPoint": "use",
+        "fTargetPointRange": 1,
+        "strUseCase": "Melee",
+        "strAnim": null,
+        "strAnimTrig": "MeleeBig",
+        "strIdleAnim": null,
+        "strBubble": "BblAttack",
+        "strMapIcon": "IcoMelee",
+        "strColor": "StatusRed",
+        "aInverse": [
+            "ACTMeleeMeat,[us],[them]"
+        ],
+        "aLoSReactions": [
+            "ACTWitnessCancel,[them],[us]"
+        ],
+        "fDuration": 0.0003,
+        "strThemType": "Other",
+        "nLogging": 2,
+        "bSocial": true,
+        "bOpener": false,
+        "bHumanOnly": false,
+        "bIgnoreFeelings": true,
+        "bNoWait": true,
+        "bInterrupt": true,
+        "LootCondsUs": "CONDACTMeleeAttacker",
+        "LootCTsUs": "CTACTMeleeWeaponAttacker",
+        "LootCTsThem": "CTACTMeleeVictim",
+        "strCrime": "assault",
+        "CTTestUs": "TCanAttackMelee",
+        "CTTestThem": "TIsValidMeleeTarget",
+        "fFactionScoreChangeThem": -10,
+        "strLootRELChangeThemSeesUs": "RELSOCViolenceEnemyChance",
+        "strPledgeAddThem": "AICombat",
+        "aLootItms": []
     }
 ]

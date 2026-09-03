@@ -1,0 +1,26 @@
+[
+    {
+        "strName": "IsBootsL",
+        "strNameFriendly": "Worn on Left Foot",
+        "strColor": "Neutral",
+        "strDesc": "[us] [is] worn on a left foot.",
+        "bRemoveAll": true,
+        "nDisplaySelf": 2,
+        "nDisplayOther": 2,
+        "fDuration": 0.0,
+        "aPer": [],
+        "fClampMax": 1.0
+    },
+    {
+        "strName": "IsBootsR",
+        "strNameFriendly": "Worn on Right Foot",
+        "strColor": "Neutral",
+        "strDesc": "[us] [is] worn on a right foot.",
+        "bRemoveAll": true,
+        "nDisplaySelf": 2,
+        "nDisplayOther": 2,
+        "fDuration": 0.0,
+        "aPer": [],
+        "fClampMax": 1.0
+    }
+]

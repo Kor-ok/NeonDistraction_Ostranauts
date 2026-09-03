@@ -73,6 +73,7 @@
                 "StatArmorBlunt=1.0x1.0",
                 "StatArmorCut=1.0x0.4",
                 "IsCategoryTextiles=1.0x1",
+                "IsBootsL=1.0x1"
             ],
             "mapCondTolerance": [],
             "mapPoints": [],
@@ -123,7 +124,8 @@
                 "StatDamageMax=1.0x16",
                 "StatArmorBlunt=1.0x1.0",
                 "StatArmorCut=1.0x0.4",
-                "IsCategoryTextiles=1.0x1"
+                "IsCategoryTextiles=1.0x1",
+                "IsBootsR=1.0x1"
             ],
             "mapCondTolerance": [],
             "mapPoints": [],
@@ -147,6 +149,58 @@
             ],
             "jsonPI": null
         }
+    ],
+    conditions: [
+        {
+            "strName": "IsBootsL",
+            "strNameFriendly": "Worn on Left Foot",
+            "strColor": "Neutral",
+            "strDesc": "[us] [is] worn on a left foot.",
+            "bRemoveAll": true,
+            "nDisplaySelf": 2,
+            "nDisplayOther": 2,
+            "fDuration": 0.0,
+            "aPer": [],
+            "fClampMax": 1.0
+        },
+        {
+            "strName": "IsBootsR",
+            "strNameFriendly": "Worn on Right Foot",
+            "strColor": "Neutral",
+            "strDesc": "[us] [is] worn on a right foot.",
+            "bRemoveAll": true,
+            "nDisplaySelf": 2,
+            "nDisplayOther": 2,
+            "fDuration": 0.0,
+            "aPer": [],
+            "fClampMax": 1.0
+        },
+    ],
+    condtrigs: [
+        {
+            "strName": "TIsBootsL",
+            "strCondName": "",
+            "fChance": 1.0,
+            "fCount": 1.0,
+            "aReqs": [
+                "IsBootsL"
+            ],
+            "aForbids": [],
+            "aTriggers": [],
+            "bAND": true
+        },
+        {
+            "strName": "TIsBootsR",
+            "strCondName": "",
+            "fChance": 1.0,
+            "fCount": 1.0,
+            "aReqs": [
+                "IsBootsR"
+            ],
+            "aForbids": [],
+            "aTriggers": [],
+            "bAND": true
+        },
     ],
     // cooverlays: [
     //     {
@@ -256,7 +310,10 @@
             "LootCondsThem": "CONDSTBootLApply",
             "CTTestUs": null,
             "CTTestThem": "TIsHuman",
-            "aLootItms": []
+            "aLootItms": [],
+            "aAModesAddedThem": [
+                "ACTMeleeKickBootsST;AModeKickBootsST;CTBootedL"
+            ]
         },
         {
             "strName": "SLOTSTBootR",
@@ -269,7 +326,10 @@
             "LootCondsThem": "CONDSTBootRApply",
             "CTTestUs": null,
             "CTTestThem": "TIsHuman",
-            "aLootItms": []
+            "aLootItms": [],
+            "aAModesAddedThem": [
+                "ACTMeleeKickBootsST;AModeKickBootsST;CTBootedR"
+            ]
         },
         {
             "strName": "UNSLOTSTBootR",
@@ -348,6 +408,47 @@
                 "Give,CT[us],false,false"
             ],
             "objLootModeSwitch": null
+        },
+        {
+            "strName": "ACTMeleeKickBootsST",
+            "strTitle": "Kicks: ",
+            "strDesc": "[us] kicks at [them].",
+            "strTooltip": "Attempt to strike in melee with a kick for hefty hits.",
+            "strActionGroup": "Fight",
+            "strTargetPoint": "use",
+            "fTargetPointRange": 1,
+            "strUseCase": "Melee",
+            "strAnim": null,
+            "strAnimTrig": "MeleeBig",
+            "strIdleAnim": null,
+            "strBubble": "BblAttack",
+            "strMapIcon": "IcoMelee",
+            "strColor": "StatusRed",
+            "aInverse": [
+                "ACTMeleeMeat,[us],[them]"
+            ],
+            "aLoSReactions": [
+                "ACTWitnessCancel,[them],[us]"
+            ],
+            "fDuration": 0.0003,
+            "strThemType": "Other",
+            "nLogging": 2,
+            "bSocial": true,
+            "bOpener": false,
+            "bHumanOnly": false,
+            "bIgnoreFeelings": true,
+            "bNoWait": true,
+            "bInterrupt": true,
+            "LootCondsUs": "CONDACTMeleeAttacker",
+            "LootCTsUs": "CTACTMeleeWeaponAttacker",
+            "LootCTsThem": "CTACTMeleeVictim",
+            "strCrime": "assault",
+            "CTTestUs": "TCanAttackMelee",
+            "CTTestThem": "TIsValidMeleeTarget",
+            "fFactionScoreChangeThem": -10,
+            "strLootRELChangeThemSeesUs": "RELSOCViolenceEnemyChance",
+            "strPledgeAddThem": "AICombat",
+            "aLootItms": []
         }
     ],
     items: [
@@ -500,6 +601,48 @@
             ],
             "aLoots": [],
             "strType": "condition"
+        },
+        {
+            "strName": "CTBootedL",
+            "aCOs": [
+                "TIsBootsL=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "trigger"
+        },
+        {
+            "strName": "CTBootedR",
+            "aCOs": [
+                "TIsBootsR=1.0x1"
+            ],
+            "aLoots": [],
+            "strType": "trigger"
+        }
+    ],
+    attackmodes: [
+        {
+            "strName": "AModeKickBootsST",
+            "strNameFriendly": "kick",
+            "strAudioAttack": "AnimMeleeSound08",
+            "strType": "melee",
+            "bPlayAudioEarly": true,
+            "fRange": 2.0,
+            "fDmgBlunt": 10.0,
+            "fDmgCut": 0.0,
+            "fDmgEnv": 2.0,
+            "fPenetration": 0.0
+        },
+        {
+            "strName": "AModeKickBootsSTHelpless",
+            "strNameFriendly": "finishing kick",
+            "strType": "melee",
+            "bPlayAudioEarly": true,
+            "strAudioAttack": "AnimMeleeSound09",
+            "fRange": 1.0,
+            "fDmgBlunt": 40.0,
+            "fDmgCut": 0.0,
+            "fDmgEnv": 0.0,
+            "fPenetration": 0.0
         }
     ]
 }

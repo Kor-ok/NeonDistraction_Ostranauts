@@ -1,0 +1,26 @@
+[
+    {
+        "strName": "AModeKickBootsST",
+        "strNameFriendly": "kick",
+        "strAudioAttack": "AnimMeleeSound08",
+        "strType": "melee",
+        "bPlayAudioEarly": true,
+        "fRange": 2.0,
+        "fDmgBlunt": 10.0,
+        "fDmgCut": 0.0,
+        "fDmgEnv": 2.0,
+        "fPenetration": 0.0
+    },
+    {
+        "strName": "AModeKickBootsSTHelpless",
+        "strNameFriendly": "finishing kick",
+        "strType": "melee",
+        "bPlayAudioEarly": true,
+        "strAudioAttack": "AnimMeleeSound09",
+        "fRange": 1.0,
+        "fDmgBlunt": 40.0,
+        "fDmgCut": 0.0,
+        "fDmgEnv": 0.0,
+        "fPenetration": 0.0
+    }
+]

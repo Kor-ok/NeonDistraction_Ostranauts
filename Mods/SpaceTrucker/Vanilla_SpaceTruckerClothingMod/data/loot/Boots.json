@@ -78,5 +78,21 @@
         ],
         "aLoots": [],
         "strType": "condition"
+    },
+    {
+        "strName": "CTBootedL",
+        "aCOs": [
+            "TIsBootsL=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "trigger"
+    },
+    {
+        "strName": "CTBootedR",
+        "aCOs": [
+            "TIsBootsR=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "trigger"
     }
 ]

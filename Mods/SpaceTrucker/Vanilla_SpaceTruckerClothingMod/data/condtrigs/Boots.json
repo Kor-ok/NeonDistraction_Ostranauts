@@ -1,0 +1,26 @@
+[
+    {
+        "strName": "TIsBootsL",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsBootsL"
+        ],
+        "aForbids": [],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "TIsBootsR",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsBootsR"
+        ],
+        "aForbids": [],
+        "aTriggers": [],
+        "bAND": true
+    }
+]
