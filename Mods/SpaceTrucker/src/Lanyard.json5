@@ -147,8 +147,8 @@
         {
             "strName": "hip_clip",
             "strNameFriendly": "Hip Clip Points",
-            "strHitboxImage": "paperdoll/HBabdomenLower",
-            "strIconImage": "paperdoll/HBabdomenLowerIcon",
+            "strHitboxImage": "paperdoll/HBLanyard",
+            "strIconImage": "paperdoll/HBLanyardIcon",
             "nItems": 1,
             "nDepth": 16,
             "fAlignX": 0.0,
