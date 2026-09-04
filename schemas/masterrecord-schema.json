@@ -63,7 +63,23 @@
       "type": "array"
     },
     "loot": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "aLoots": {
+            "anyOf": [
+              {
+                "$ref": "enums/loot-aLoots-options.json"
+              },
+              {
+                "type": "array"
+              }
+            ],
+            "description": "From condowners[].strName values."
+          }
+        }
+      }
     },
     "manpages": {
       "type": "array"
