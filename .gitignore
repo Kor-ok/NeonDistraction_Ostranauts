@@ -119,3 +119,21 @@ MemoryCaptures/
 
 # Unity cloud / collaboration
 .collab/
+
+# Visual Studio
+# Visual Studio solution files
+*.sln
+*.suo
+# Visual Studio project files
+*.csproj
+*.vbproj
+*.fsproj
+*.vcxproj
+*.vcproj
+*.proj
+*.user
+*.cache
+*.db
+# Build output
+bin/
+obj/
