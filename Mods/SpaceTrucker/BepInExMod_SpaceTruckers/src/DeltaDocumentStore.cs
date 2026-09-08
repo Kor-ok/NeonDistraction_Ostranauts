@@ -1,9 +1,11 @@
+using BepInEx;
 using Marvin.JsonPatch;
 using Marvin.JsonPatch.Exceptions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -14,10 +16,12 @@ namespace NeonDistraction.SpaceTruckers.Delta
     private const string DeltaFolderName = "delta";
 
     private static readonly Dictionary<string, Dictionary<string, JArray>> DeltaMap = new Dictionary<string, Dictionary<string, JArray>>(StringComparer.OrdinalIgnoreCase);
+    internal static string? LastError { get; private set; }
 
     internal static void Collect(string modFolderPath)
     {
       string deltaFolderPath = Path.Combine(modFolderPath, "data", DeltaFolderName);
+      Trace.WriteLine($"[SPACETRUCKERS] Reading delta JSON from {deltaFolderPath}...");
       if (!Directory.Exists(deltaFolderPath))
         return;
 
@@ -46,13 +50,14 @@ namespace NeonDistraction.SpaceTruckers.Delta
         }
         catch (Exception ex)
         {
-          Plugin.LogDebug($"[SPACETRUCKERS] Could not read delta JSON from {filePath}: {ex.Message}");
+          Trace.WriteLine($"[SPACETRUCKERS] Could not read delta JSON from {filePath}: {ex.Message}");
         }
       }
     }
 
     internal static bool TryApply(string sourceFilePath, out string patchedJson)
     {
+      LastError = null;
       patchedJson = string.Empty;
       string dataFolderName = new DirectoryInfo(Path.GetDirectoryName(sourceFilePath) ?? string.Empty).Name;
       if (!DeltaMap.TryGetValue(dataFolderName, out Dictionary<string, JArray>? targets))
@@ -68,13 +73,13 @@ namespace NeonDistraction.SpaceTruckers.Delta
           if (entryName == null || !targets.TryGetValue(entryName, out JArray? operations))
             continue;
 
-          JsonPatchDocument<JObject>? patch = JsonConvert.DeserializeObject<JsonPatchDocument<JObject>>(operations.ToString());
+          JsonPatchDocument<object>? patch = JsonConvert.DeserializeObject<JsonPatchDocument<object>>(operations.ToString());
           if (patch == null)
             continue;
 
-          patch.ApplyTo(entry);
+          JsonPatchExecutor.Apply(patch, entry);
           wasPatched = true;
-          Plugin.Log?.LogInfo($"[SPACETRUCKERS] Applied delta to {dataFolderName}/{entryName} from {sourceFilePath}.");
+          Trace.WriteLine($"[SPACETRUCKERS] Applied delta to {dataFolderName}/{entryName} from {sourceFilePath}.");
         }
 
         if (!wasPatched)
@@ -85,12 +90,14 @@ namespace NeonDistraction.SpaceTruckers.Delta
       }
       catch (JsonPatchException ex)
       {
-        Plugin.Log.LogError($"[SPACETRUCKERS] Delta patch failed for {sourceFilePath}: {ex.Message}");
+        LastError = ex.ToString();
+        Trace.WriteLine($"[SPACETRUCKERS] Delta patch failed for {sourceFilePath}: {ex.Message}");
         return false;
       }
       catch (Exception ex)
       {
-        Plugin.LogDebug($"[SPACETRUCKERS] Could not apply delta to {sourceFilePath}: {ex.Message}");
+        LastError = ex.ToString();
+        Trace.WriteLine($"[SPACETRUCKERS] Could not apply delta to {sourceFilePath}: {ex.Message}");
         return false;
       }
     }

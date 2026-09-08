@@ -29,9 +29,9 @@
       },
       "Newtonsoft.Json": {
         "type": "Direct",
-        "requested": "[13.0.4, )",
-        "resolved": "13.0.4",
-        "contentHash": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A=="
+        "requested": "[9.0.1, )",
+        "resolved": "9.0.1",
+        "contentHash": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",
@@ -57,10 +57,10 @@
       },
       "Marvin.JsonPatch": {
         "type": "Transitive",
-        "resolved": "1.0.0",
-        "contentHash": "taC6v7fYUnHMv4rLWYHTtI5SN8N1wsG/J3qNgyOUlPKx46Zpy70IbKqpf4RwNCzZil5SSfkp9Wqt0o93XqfROQ==",
+        "resolved": "2.2.1",
+        "contentHash": "TUpTZNJHPdKiQP4f9izyT2WzEo/tvJ8OPF3JN/4/L/uvuYv0nrxnPxAYMhkLqUhAN8DtZ6a3z/87wOtBjhZc9w==",
         "dependencies": {
-          "Newtonsoft.Json": "6.0.4"
+          "Newtonsoft.Json": "9.0.1"
         }
       },
       "Microsoft.ApplicationInsights": {
@@ -199,8 +199,8 @@
         "type": "Project",
         "dependencies": {
           "BepInEx.Core": "[5.4.*, )",
-          "Marvin.JsonPatch": "[1.0.0, )",
-          "Newtonsoft.Json": "[13.0.4, )"
+          "Marvin.JsonPatch": "[2.2.1, )",
+          "Newtonsoft.Json": "[9.0.1, )"
         }
       }
     }

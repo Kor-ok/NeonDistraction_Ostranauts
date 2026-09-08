@@ -48,7 +48,7 @@ public class Plugin : BaseUnityPlugin
 
   public static void LogDebug(string text)
   {
-    if (configDebugGeneral.Value)
-      Log.LogDebug(text);
+    if (configDebugGeneral?.Value ?? false)
+      Log?.LogDebug(text);
   }
 }

@@ -47,8 +47,7 @@ namespace NeonDistraction.SpaceTruckers.Delta
         string highlight = isHighlighted ? " [HIGHLIGHTED]" : string.Empty;
         if (isHighlighted)
         {
-
-          Plugin.Log.LogInfo($"[SPACETRUCKERS]{highlight} Data folder: {folderPath}");
+          Plugin.LogDebug($"[SPACETRUCKERS]{highlight} Data folder: {folderPath}");
         }
       }
     }

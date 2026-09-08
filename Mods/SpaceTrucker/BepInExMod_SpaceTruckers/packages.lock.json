@@ -10,9 +10,9 @@
       },
       "BepInEx.AssemblyPublicizer.MSBuild": {
         "type": "Direct",
-        "requested": "[0.4.2, )",
-        "resolved": "0.4.2",
-        "contentHash": "AwGR6zOQxhWPWmcMdmhCaawC2qYdYHttkGmlXxyvhB1EIUAtuILEle8kKSkzElnbFGZjvw6iabpFi+AYUG4IuA=="
+        "requested": "[0.4.3, )",
+        "resolved": "0.4.3",
+        "contentHash": "Z8Qs3JTTHZG1q0DCqY+HFJ8xp92tkEXWyQ7roeWgUvn20tjv0ZNfAdyy13XrRS1jeEoN/weJc81747TbvvwaDg=="
       },
       "BepInEx.Core": {
         "type": "Direct",
@@ -26,11 +26,11 @@
       },
       "Marvin.JsonPatch": {
         "type": "Direct",
-        "requested": "[1.0.0, )",
-        "resolved": "1.0.0",
-        "contentHash": "taC6v7fYUnHMv4rLWYHTtI5SN8N1wsG/J3qNgyOUlPKx46Zpy70IbKqpf4RwNCzZil5SSfkp9Wqt0o93XqfROQ==",
+        "requested": "[2.2.1, )",
+        "resolved": "2.2.1",
+        "contentHash": "TUpTZNJHPdKiQP4f9izyT2WzEo/tvJ8OPF3JN/4/L/uvuYv0nrxnPxAYMhkLqUhAN8DtZ6a3z/87wOtBjhZc9w==",
         "dependencies": {
-          "Newtonsoft.Json": "6.0.4"
+          "Newtonsoft.Json": "9.0.1"
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies": {
@@ -44,9 +44,9 @@
       },
       "Newtonsoft.Json": {
         "type": "Direct",
-        "requested": "[13.0.4, )",
-        "resolved": "13.0.4",
-        "contentHash": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A=="
+        "requested": "[9.0.1, )",
+        "resolved": "9.0.1",
+        "contentHash": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",
