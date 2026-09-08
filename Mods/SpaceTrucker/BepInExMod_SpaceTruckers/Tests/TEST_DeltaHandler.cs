@@ -27,7 +27,7 @@ namespace NeonDistraction.SpaceTruckers.Tests
       JToken actual = JToken.Parse(patchedJson);
       
       // For diagnostics write the patched JSON to a file in the test data folder.
-      string patchedFile = Path.Combine(testDataPath, "condowners", "DIAGNOSTIC_condowners_patched.json");
+      string patchedFile = Path.Combine(@"D:\Projects\Ostranauts\Github\NeonDistraction_Ostranauts\Mods\SpaceTrucker\BepInExMod_SpaceTruckers\Tests\", "DIAGNOSTIC_condowners_patched.json");
       File.WriteAllText(patchedFile, patchedJson);
       
       Assert.IsTrue(JToken.DeepEquals(expected, actual), "Patched condowners JSON does not match TestAgainst_condowners.json.");
