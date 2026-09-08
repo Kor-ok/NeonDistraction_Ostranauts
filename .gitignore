@@ -137,3 +137,14 @@ MemoryCaptures/
 # Build output
 bin/
 obj/
+
+# Ignore common VS folders inside the secondary project
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/.vs/
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/.github/
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/bin/
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/obj/
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/Properties/
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/*.sln
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/*.csproj
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/*.user
+NeonDistraction_Ostranauts/Mods/SpaceTrucker/BepInExMod_SpaceTruckers/**/*.suo
