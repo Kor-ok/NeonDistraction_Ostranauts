@@ -68,7 +68,7 @@ namespace NeonDistraction.SpaceTruckers.Delta
           if (entryName == null || !targets.TryGetValue(entryName, out JArray? operations))
             continue;
 
-          JsonPatchDocument<JObject>? patch = JsonConvert.DeserializeObject<JsonPatchDocument<JObject>>(operations.ToString(Formatting.None));
+          JsonPatchDocument<JObject>? patch = JsonConvert.DeserializeObject<JsonPatchDocument<JObject>>(operations.ToString());
           if (patch == null)
             continue;
 
@@ -80,7 +80,7 @@ namespace NeonDistraction.SpaceTruckers.Delta
         if (!wasPatched)
           return false;
 
-        patchedJson = sourceEntries.ToString(Formatting.None);
+        patchedJson = sourceEntries.ToString();
         return true;
       }
       catch (JsonPatchException ex)

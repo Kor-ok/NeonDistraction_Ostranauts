@@ -18,15 +18,16 @@ namespace NeonDistraction.SpaceTruckers.Delta
 
       Plugin.Log.LogInfo(
         $"[SPACETRUCKERS]{highlight} DataHandler.LoadMod arguments:\n" +
-        $"  Folder: {folderPath}\n" +
-        $"  Ignore patterns: {formattedIgnorePatterns}\n" +
-        $"  Mod name: {modInfo?.strName ?? "<null>"}\n" +
-        $"  Author: {modInfo?.strAuthor ?? "<null>"}\n" +
-        $"  Mod version: {modInfo?.strModVersion ?? "<null>"}\n" +
-        $"  Game version: {modInfo?.strGameVersion ?? "<null>"}\n" +
-        $"  Workshop ID: {modInfo?.strWorkshopID ?? "<null>"}\n" +
-        $"  Tags: {formattedTags}\n" +
-        $"  URL: {modInfo?.strModURL ?? "<null>"}");
+        //$"  Folder: {folderPath}\n" +
+        //$"  Ignore patterns: {formattedIgnorePatterns}\n" +
+        $"  Mod name: {modInfo?.strName ?? "<null>"}\n" //+
+        //$"  Author: {modInfo?.strAuthor ?? "<null>"}\n" +
+        //$"  Mod version: {modInfo?.strModVersion ?? "<null>"}\n" +
+        //$"  Game version: {modInfo?.strGameVersion ?? "<null>"}\n" +
+        //$"  Workshop ID: {modInfo?.strWorkshopID ?? "<null>"}\n" +
+        //$"  Tags: {formattedTags}\n" +
+        //$"  URL: {modInfo?.strModURL ?? "<null>"}"
+        );
 
       ReportDataFolders(folderPath);
     }
@@ -44,7 +45,11 @@ namespace NeonDistraction.SpaceTruckers.Delta
       {
         bool isHighlighted = folderPath.IndexOf(HighlightFolder, StringComparison.OrdinalIgnoreCase) >= 0;
         string highlight = isHighlighted ? " [HIGHLIGHTED]" : string.Empty;
-        Plugin.Log.LogInfo($"[SPACETRUCKERS]{highlight} Data folder: {folderPath}");
+        if (isHighlighted)
+        {
+
+          Plugin.Log.LogInfo($"[SPACETRUCKERS]{highlight} Data folder: {folderPath}");
+        }
       }
     }
   }

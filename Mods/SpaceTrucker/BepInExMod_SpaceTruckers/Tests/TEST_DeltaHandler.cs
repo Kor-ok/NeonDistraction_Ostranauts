@@ -13,19 +13,11 @@ namespace NeonDistraction.SpaceTruckers.Tests
     public void TryApply_AppliesCondOwnerDelta_AndMatchesExpectedFixture()
     {
       string testRoot = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
-      string sourceDirectory = Path.Combine(testRoot, "data", "condowners");
-      string deltaDirectory = Path.Combine(testRoot, "data", "delta");
-      string sourceFile = Path.Combine(sourceDirectory, "Original_condowners.json");
 
       try
       {
-        Directory.CreateDirectory(sourceDirectory);
-        Directory.CreateDirectory(deltaDirectory);
-        File.Copy(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Original_condowners.json"), sourceFile);
-        File.Copy(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "condowners.delta.json"), Path.Combine(deltaDirectory, "condowners.json"));
-
         DeltaDocumentStore.Collect(testRoot);
-
+        string sourceFile = Path.Combine(testRoot, "Original_condowners.json");
         Assert.IsTrue(DeltaDocumentStore.TryApply(sourceFile, out string patchedJson));
 
         JToken expected = JToken.Parse(File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "TestAgainst_condowners.json")));

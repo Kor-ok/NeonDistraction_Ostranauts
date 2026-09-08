@@ -3,4 +3,5 @@
     <File Path=".editorconfig" />
   </Folder>
   <Project Path="BepInExMod_SpaceTruckers.csproj" />
+  <Project Path="Tests/BepInExMod_SpaceTruckers.Tests.csproj" />
 </Solution>

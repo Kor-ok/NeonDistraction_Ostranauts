@@ -1,0 +1,61 @@
+{
+  "targets": {
+    "Crew01": [
+      {
+        "op": "add",
+        "path": "/aSlotsWeHave/19",
+        "value": "sockL_in"
+      },
+      {
+        "op": "add",
+        "path": "/aSlotsWeHave/20",
+        "value": "sockR_in"
+      },
+      {
+        "op": "add",
+        "path": "/aSlotsWeHave/24",
+        "value": "hip_clip"
+      },
+      {
+        "op": "add",
+        "path": "/aSlotsWeHave/25",
+        "value": "mag_point"
+      }
+    ],
+    "ItmDocumentPermitOKLG01": [
+      {
+        "op": "add",
+        "path": "/aStartingConds/6",
+        "value": "IsYellow=1.0x1"
+      }
+    ],
+    "ItmDocumentPermitOKLG01b": [
+      {
+        "op": "add",
+        "path": "/aStartingConds/6",
+        "value": "IsRed=1.0x1"
+      }
+    ],
+    "ItmDocumentPermitOKLG01c": [
+      {
+        "op": "add",
+        "path": "/aStartingConds/6",
+        "value": "IsBlue=1.0x1"
+      }
+    ],
+    "ItmDocumentPermitOKLG01d": [
+      {
+        "op": "add",
+        "path": "/aStartingConds/6",
+        "value": "IsGray=1.0x1"
+      }
+    ],
+    "ItmDocumentPermitOKLG01e": [
+      {
+        "op": "add",
+        "path": "/aStartingConds/6",
+        "value": "IsBlack=1.0x1"
+      }
+    ]
+  }
+}
